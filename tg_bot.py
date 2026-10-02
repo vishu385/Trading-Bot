@@ -7,19 +7,7 @@ import threading
 import sys
 import shutil
 
-TOKEN_FILE = "bot_token.txt"
-if not os.path.exists(TOKEN_FILE):
-    with open(TOKEN_FILE, "w") as f:
-        f.write("PASTE_YOUR_BOT_TOKEN_HERE")
-    print("Please paste your Bot Token in bot_token.txt and run again.")
-    sys.exit()
-
-with open(TOKEN_FILE, "r") as f:
-    BOT_TOKEN = f.read().strip()
-
-if not BOT_TOKEN or BOT_TOKEN == "PASTE_YOUR_BOT_TOKEN_HERE":
-    print("ERROR: You didn't put your token in bot_token.txt!")
-    sys.exit()
+BOT_TOKEN = "8981260576:AAEGmRqNdFn1K50Uqrvxe2UZ2-Yf-1o1WlI"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 bot.set_my_commands([
