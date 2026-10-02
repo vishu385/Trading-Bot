@@ -1,0 +1,519 @@
+curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/wizardSteps' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=RHXweBaFf3bj9BhYYj8Qf9a5lP3fOazEPzhw6N+hQm2Tw9z47iVbFMgMmu/yM+qiaC9S3BX5IyEvWPlMcHgDApMjVBqwwtd1w57cWrBX8bCX+BUyXpWmq1W9nzOwVS41M1juFsWbdHZbtGqFsfk6S2UtWyyNfmzuoKJDKetjv7HQWfg+uY8=; AWSALBTGCORS=RHXweBaFf3bj9BhYYj8Qf9a5lP3fOazEPzhw6N+hQm2Tw9z47iVbFMgMmu/yM+qiaC9S3BX5IyEvWPlMcHgDApMjVBqwwtd1w57cWrBX8bCX+BUyXpWmq1W9nzOwVS41M1juFsWbdHZbtGqFsfk6S2UtWyyNfmzuoKJDKetjv7HQWfg+uY8=; AWSALB=5D45VIRox/FYEO/dDzDA5xjcWEU1g9GA12Gq2ue4tQWEb5eYGDmyzPm8xol5Ccf9uutWWr7jB32WEhFSoDZJZqI+AAMTdRYMnQ84wVGP4T/yqdPga45SxMVY9eN0; AWSALBCORS=5D45VIRox/FYEO/dDzDA5xjcWEU1g9GA12Gq2ue4tQWEb5eYGDmyzPm8xol5Ccf9uutWWr7jB32WEhFSoDZJZqI+AAMTdRYMnQ84wVGP4T/yqdPga45SxMVY9eN0' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'product: mypins' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"country":"TN"}'     curl --url 'https://registration.paysafecard.com/customer-registration/assets/i18n/common/messages_fr_TN.json' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=RHXweBaFf3bj9BhYYj8Qf9a5lP3fOazEPzhw6N+hQm2Tw9z47iVbFMgMmu/yM+qiaC9S3BX5IyEvWPlMcHgDApMjVBqwwtd1w57cWrBX8bCX+BUyXpWmq1W9nzOwVS41M1juFsWbdHZbtGqFsfk6S2UtWyyNfmzuoKJDKetjv7HQWfg+uY8=; AWSALBTGCORS=RHXweBaFf3bj9BhYYj8Qf9a5lP3fOazEPzhw6N+hQm2Tw9z47iVbFMgMmu/yM+qiaC9S3BX5IyEvWPlMcHgDApMjVBqwwtd1w57cWrBX8bCX+BUyXpWmq1W9nzOwVS41M1juFsWbdHZbtGqFsfk6S2UtWyyNfmzuoKJDKetjv7HQWfg+uY8=; AWSALB=5D45VIRox/FYEO/dDzDA5xjcWEU1g9GA12Gq2ue4tQWEb5eYGDmyzPm8xol5Ccf9uutWWr7jB32WEhFSoDZJZqI+AAMTdRYMnQ84wVGP4T/yqdPga45SxMVY9eN0; AWSALBCORS=5D45VIRox/FYEO/dDzDA5xjcWEU1g9GA12Gq2ue4tQWEb5eYGDmyzPm8xol5Ccf9uutWWr7jB32WEhFSoDZJZqI+AAMTdRYMnQ84wVGP4T/yqdPga45SxMVY9eN0' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36'    curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/start' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=XCCy4Pmk4bTmPI7D89RmYV3de7uNSeKDHn1AOx6vACSBkdTh0bUI9SCR9n2HNf8m61nsSukzBiTrQs+DvzmSnf+xTA7Lk8b22nyseugJjI73nCJ+mOz+GARzvFjDDrEhOec7ymArbtSgRMc3taFaJE8jJn5FzshkH0hBTwRzFFnJPVnBAN4=; AWSALBTGCORS=XCCy4Pmk4bTmPI7D89RmYV3de7uNSeKDHn1AOx6vACSBkdTh0bUI9SCR9n2HNf8m61nsSukzBiTrQs+DvzmSnf+xTA7Lk8b22nyseugJjI73nCJ+mOz+GARzvFjDDrEhOec7ymArbtSgRMc3taFaJE8jJn5FzshkH0hBTwRzFFnJPVnBAN4=; AWSALB=zkT459YSaxz5bOcOup0H7RR7hxiNLdOOnq7YB/wfUjkVWKYbkaqRcvEcXNQbyHCGnLNjW+LjmSd8idZ2g3C5RE3DGJ0IgnBDSoC2d1BubxgoSkt8FHwXhK3bHuSH; AWSALBCORS=zkT459YSaxz5bOcOup0H7RR7hxiNLdOOnq7YB/wfUjkVWKYbkaqRcvEcXNQbyHCGnLNjW+LjmSd8idZ2g3C5RE3DGJ0IgnBDSoC2d1BubxgoSkt8FHwXhK3bHuSH' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"product":"mypins","locale":"fr_TN","currency":"EUR","additionalParameters":{}}'  jo contry h vhhi conry honi chaya seletc bhi same to same curl --url 'https://www.google.com/recaptcha/api2/reload?k=6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/x-protobuffer' \
+  -H 'origin: https://www.google.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.google.com/recaptcha/api2/bframe?hl=en&v=kemdRjWFxNjgsGdhRslyEPwU&k=6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4&bft=0dAFcWeA5YEY3z5M3tw_w_Z32tZunv85ObSaA8qsjxMnNAEWfo7q7f1kc3yJ2yJPlr3wS9B7_sDzG2L1Xec593LmexhjsvX7kc9w' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-storage-access: none' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw $'\n\u0018kemdRjWFxNjgsGdhRslyEPwU\u0012¤\r03AFcWeA6Fk1fkM_4Czr2UDPYzVpgBj1w9O-_EuGXUd22u1XrXfPjgVVQMGWfavOOxEPf_SLTx5gXlKjQpf_5-lUWLIYaWNyyAxqLU0kC5yNBgOyk4RwMoGXdK2c9CjA3vMsCCOzuxDXCt-RlzfSME9glg38kDw6CypIFVlmVgb_9puqfNaiRz4jHywrqtWCFSbVkbMJJHdQGwkPAqQy7VFbn8l3Jx27VYJBeXbB_-5xHABiBziaXwU_Xqrq5PvUgGlEXKfYZx--TPIEqyKwuH2LKIjqZNDXFdoWsudB6L2P2O_BJtiYDvNPyJbAeh2WSbckCYo4bwqDl3-ZeKFxgSfYvKYzbPzRsJijlJAGCVmc3O7Ycbnq-X5-c88Cz57lgBt5RUrsTXw2u8tFe3RPvihMRGGi6d3qxc25lB1oJqsSxld7tKc_u7884UxZk47ENTCj7a2uOxKSXk0nNnSpa-y552kLkv1x9SIcU--cGpERIdLKVYkQJzhXX4CylQxfOmUH94TUGays2KByNziIrrOq76SCF2bUCPOujMmmhHjxovfjDwY7u1wsonsSe8SXhkCZQNcn-Ys3C8sC3yT1lYwBCYvioBWoF2cUd18lLBoDeF17vIwYBvV_JQEIQIAgCVy_wvmGLi6X7VBAsMJ5C3I5czA1mVq6EIt1gWDnHZ3N-Lio-XRr1Z3rdOx04MyXMwI6LpgQC11BZlJTuv5_vzaGuLxiynI7m4v7b48otYEzYENEaiK5cIOTtLcfClyoDzRQ5as8IZfzATmGEZoRWs2r85BeNzuv9-pqBWkRnWtycqEh2K0Ow1lD57bU59EoUj1ozaTmjDlqZfoqSyylQcWvN0qWibKh1bGkxkv22FoCunu_0QItlTXE69-r-uBWXygnEc7epWt_S15DgCNDg_xUum9T3s-Hi8qORFzLI014WWDQv9z2he6wHVvhEFy6tXbYNtFuMvzO4C7qkdmtTlNK7VOsUuWdeiLmVrkdh0BHb-69cr5Lw-5vNZhjWk0Z2N-67QN4wGfZ3yHAcl4RQKuFeejrGqB48e_7bdfHoehW4tu1vLl5sZusUv7jvylahnsyZwKMyWIcQpVbq1hYWbhqA4mG56nluzswEquK4jBm89wTlK4FIwPPKlOpKZvidGPZv8b3pgrNp3Z4IsecMwVvpgtdboG_kImO9RkwIaaItJoFjGCooHsTpTc6sbNaBIns_uqFxLvLSg0g3I8svFmYkZsiQs1xzuu18yrZNMYk28umAMdYr_fiVawsFEtQ9YbDAwV_yyxajQY3Nt5dxWrsbAXWrvzNTKUzaFx656u0MmZZhx_SiZUjumq7zerDz9MUdk3UCnNKLB0lNVENRZ0wS9l03t5-NcfJ117zdteqF24L_-BftfADcCZdXO5wXexJ_b7spGJJA3_G0gYM5gO1evWa6GW_ChSiPISQ0-8vhO1djIUoDhydC8sdpGrXswRTlIzQz-jZaNn37xzqavoBsRujM7w5vgBteumNJuIgpAjXCFsXh79KSwwA3f__RpjeW3FHPxwC0ok_r_kA2Tjf-ZzAmJ5ovJ86y5JeNqej4Xz6lLmwkxG45S6hvEfthvw0VyoWQ5AG4D8ljsFVT7-IXqKtFr32MBsLPqRIPJoMAi0FCB2b6cXWVPLZhg3RoCcn1w0IHHfQN68mI9aEijdBJFZP4tfyybjw*\u00095357949882\u0002fir(6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4\u0082\u0001Ä&03iyP5i19jR92vQ0drwZNna0_lt0tPYPlOocGE23EDZ_2PY2dL4bNHS2_Fl2tvU-m7T1N3zZ9zd1vxg1dbf9Wne39j-YtfY0fdr0NHa8GTZ2tLEPbLoOuCErBzEuiwi6I8it7tDlWogoxwQ0nuPdVhLoylMURX8cFZpvsE569E12jHnm3M2Cl82609Tez6jmD6TRUvv4zjR92vQ0drwZNna0_lt0tPc8mbb3NX7b9TV3vRo3d7X_WHW19D2at_Q2MozN0sw9XpAY2guVcpflCc_gJhLbxYbrhOZz6N5jzNInkH4XYD2LE-Uu8AkmT6SNh9CSMogN5owlOxvYicvdDYroojaQTRcsYZZ7zaHb9RGb0JYzgMYjDCG6cA1yO8zlhtUNiyBdgzPlPlPUkkfUjmKP9Uqj1Q43nOoT-HZyzQ4fuSYjAGGaD3TSI1SJtxxpj3v18kyNfsipTx_dLj-tCYfgUiJPtRJbjMn3XKnTuDYyjM3rY4z2S5zSEzSd6wz5d3PODxCl1rRVDmglSl-ciircClZPtRJnhM33XKnHuDYyjM3jYCjON4jeB1B13yRqOrSxD0w5gyNMtgtgpdb0XabouTczjc7QZdb8GM7ABEpzHIlLj-kqD3TSJ1Cltxxlp3v18kyNkxR4uog09m_gsnewfjr8aV9MgdLIUXGO9FGW0CU2n-Ua-3VxzA1KmBFqe-PNNovdBkd03iddObewDk84dZpPtQpjkNX3XKXXuDYyjM5TbJIiD3TKH1Cdtxxlj3v18kyNZ2NMtgtckeL0XabEuTczjc7sYI33UKXHDDWe4Cn6dHDPD-lumwx16yhFouAlUovQ9mOExrs1MY_MyaNlJjbb0R7P4M7flX4vTTaHNBGPZC4bE4XGg9DiK2BqB-RN7vDtnt_oxnfdGpf1MevE5hMTydbYLdcXmOKnETYbQI1mhMmfMKEPK0Uum9SKJzxqO6Btk1RdkquYjlOhLnvomg70Xa7UEeaQPI3oHOqHOHWShODON4jaH2h13yRKOrT-W3S09vNNjftg_ub5ak_UgdbIYdc8hanPNInjJFV23ClbO7WyDE1uiwx10yRFjrQdYqh49vNNjqxJhk9gmc-odmqHyh6gAUJ_lYHn0KYXvMoa2MWqSCXSi1Duv6y-ByASCoQdex-Mxh9Zdduk1c9MFm7Y7VLkXNYrxRavFVWfIR2TB9mDOAnecGmmq9VOGyilT1TJkzwBam_QeteoSkPAilsc4frQDbqbpR4rdSnfxHXXpKIm2_iN92Sh0whVouANRnfpKmQ4trMNTiQgDXbQCVaXtR5jpXn0PZq39DYyjM3rXA4Pb9VeJwx16wRFiswVUpfM9muoyrs1MY_MnhM0CaaowZ63ySJgWNZb6R4nWHYLYB3mjFnWK4151-lWEukZrxzhDx-Rbp9Unu_JTnsIFeOI5dZkWaMjWJZcDLqX3QozAJXXWKlPFCWOp_zOl60Fa2glElwJ2lA5bgrMNZ7MFU6j4RJblLYrZKp69PFPjCJTrBlqy-iN90ihzyRhlswRYp-1ElONeffwTo9YyU60CV6H0PZfqNK7NTGPzJ6ij_VKn80aN5zqD_h2cs0Oi7kmI5_Nmg90yiNklbccWat79fJMjWtfiY5bkOrXBSn_vElW8EF3EGHikCzmLATGm6h1lx_FduPNvmhRccfw6kOQEYsMkfNUgecDXR5DZEYL7S3OlJnCvGHWT6F2l0hJh-CeK6i1WqSNku-dqrfwrocZBZ6HxaqQqbar2QrveEqD5GZSqJIDUEDm6-TON30Cr4hZn6AdoxylMqNRTj9YocrIam7X4RKUdMZoQaajaUH3WS4TfEmTNKWip9UGi6Sqo6ySSwCpowv9GqeUzqQBUnLIWbqHxWswGRpPlOXjDT6D1HmbCNGnCAk-d5UNx6UV34kFp4hFkyeUxqeo6qsQxpOomaLYqXrkhYp4HJJDCL6DlJI3qBF2o9U615USE8CV35RNixiZ4zStWtBo_ceg6e-VLU7URe6wARLvsOrncV2LkGIq6NHbMBVTB9kSq6xOe7QJkoiRds-hipBRdpN8iabE8groFe6kAa6jTXo7WL3vGE2zDMnbVIGbB6EGR6jWJzSmFwwyAkQNoqeU_ccNLnLFBhN8UgbggUrAFaI8BJ6THO2OnK3bPIE_A1Wmlwi-DtzaOsy9ftClonvFqiwBJdbg1ZcArU68WbL0EJXHpMoLrBGKiIkSl9Gq4FUOp5Tip8RmVvBNVx-FFvAU6teg3ZuIEacMxdaICeoMXa6L8M3XMMG-8LGm4CjKf4zKPC1hhxhlS5itmrPsxgwpAq-k0fusZl-grU7HiZYEPQ4zTNoL1GlfGETON5DeC2h16yj5d3PODvhZirxRSqfVVgrMNZLkBU533SJgOLazDU4LZKnPjElG1-HvU_GS_4jKV-FGo1SGJoRhDzfpCuOYobsNEdsJGbr4SfKLqcH76ZJLmVavkGHe8JHjV9E685ySN0hFy4iRW2wRVyfdayO4ykcRFZNMjaaUlQ676NanrXZXmJ3fiEnK4JH_E_DW8-VCC_jamtjmYvvh_o_tFpvc6g_gjc9sil9sVd8j_VbjvO4LYN6XZBIST7UKX4zl91yh37g2MozNo2TVamiU6xgM5gvITY9MnZsMrV67yeMjWOY_wRaXPSITC4z2S6TWJ0yh6wRlkrQpaoh49vNNjlRJoY70SZ7QJTaf4Rr7dXHMDU3TIFIrXE4vSEnmZB2KCGT50CEugxjNY4yt2kQozmwhTeOsSp_oel8Y6StsUSL4VZa7GFZXEGpaqLnXN_TiGDUK24BOLyD2axxlK2xNjudJnkrMNYrgJVZ33SJYOLazDU4oHJqjS_lKqJ2auJHd-0WGS5i91wjxzsgl8p-k0luUkj9YkgOcyauEJSJoVSYQYE23EFmex_Veo9W6NDCOz1im14Vqetkpqxili2Cdzy_M4qP5EeddIe94GeLrhT6vyMmO9EmizCk2n-ES-3VxzA1JxwkWE6PNNpPVKlN03iNJObcMXZLb9fJMjWtAlV4T3ZanwKJnKBWrKKzON4jaI0h13yBKOrSxDtA5omhlPhAlepf8roNsokd8kUp7uI33SKXnKEWS5BlGn7Uqa4V59_BOj0kR--B5ungpSpCQxlglAitg1crIWh98aXNvzN5kUYLPUInTXFpiT7UKX4TJ91yd57g2MozNm3jVbo-J4yOlqi_Iuq8IcZ8U5f8IIebjuQ6QIR4m5JW3COYWD3TKH1yVtxxdn3v18kwReufdztuhlr98oqfI0j8f1XtjuPnPNJHbIFl2yAVHO7WyDE0SC0Tx1xDekzRZwtAKDqitTgu8-cQothtkhmeYnZpHTLYLYIna9F2ezLk3M43PM-ErE-yOYwjii0ktvxRE-sAVViORLkP4ogeQrb8A6daj1WLvpa5YETYXG802k90aV3TeH0k5t7DyMoxSJ4zB-yiZuc80TcsYVU979fJMIgNAYbbbBNKkDUJ7m802T8kaV0159_BOPAFVRwvlj4yJ_xdMtc9oqY-4-XbH9Q8gqf8UgeMTDTm3sPJ_2PY2d8z2R3SO92WKm-y6E-SRQwg2LxOh7h-1qsQcUZ8pJgqUCVLT0MskHX6z6FHfvK1TaOmvYI3SFCEGCyRqH-TOCovN0u-osnvJchcdXhewCVOEbarTpeabmRo_GMn3GSJXW9YK6-FanGTe19iOnrBZW0g5GsRJtt_ppj9dMYawFk9cMfLv9R8XmXZn1TIKsOWjbFYWuAFK5FDS45SOk9xyIrv4zvt1vxg1dbf9Wne39fN82fc3dNH3RHWPaM3LYH4e6JDO-3W_GDV1t_1ad7f2P5i19jQxvxg1dbcENYa3zYusOg5LnUqXjRJPAA46tP5bdLT3PJm29zUyvBk2drQNNoe0zkyVwltJerQhUiLolhdkJfq_0c7kLZ5HnOWfbPWbcD3mz3Eay0mSowE-gzhVDzu1szyZtvc0hbcMNU7oJZbMTQ7D6TrwEPoXALqvKEpvG426NDG_GDV1twQ1hrfNoxvVK1AtEtQJhotcYleRCQ87tbM8mbb3NIW3BDVPJSVbFB4PCBzGGGlO7CiJq1RJeruNujQxvxg1dbcINYa3ziKo4ZpAiSXwKP5vyS4m5OISyLWOSKG_HDxxs1FqG8QCDsxOHo_ZzmtpmruIXesQKc6QXeqPjRcvwY3DEFWXzNoXTBjzE4niV90CwCFSW4yWGvwd-0xtTvfY0hNVJY-VJQ87tbM8mbb3NIW3BDVPvPG7YDnKSIXbBFC5j7g2M70aN3e1BjeEtc_NgceIzkrJBluE0ToMOLawPZq39DWGtAU2T7ILS5HjECyF15jub5kuUpw1Clfw0oNIjtcAxiecTheIQe6MdRscPU3XHWpTaHZvCNWKe7iOuzUyvBk2drQFNou0ztwV0ku1mpvsakthKh6Qxi7vlR7T5Z5r8VHvvEo2nOYnF92im8GmK_xiAsCWC3w1ykQI-jsNObexPpu09TaLtQY3TdZkZIaMIHm6jLk3fNn3N3W_GDV1t7E-m7T1Noe1BjdNNxelHtAgebqMuTcwvhs0dLYHNIW2zRmLOP2yi9l6VJGerEWKF6Flj5Rp5xBZzt_U0wdhjid9PabUOQ87tbM8mbb3NIW3BDVPWIGLq9YS5IXm1Dl-v5zFczEhWug2FqQd0yN4uY-4NjO9Gjd3tQY3hLXP5a638N5jCFI3CGmG4Aj6Ow05t7E-m7T1NovU9kd0jxehaswVTktY4l9M1U8j3RHwIJ3HpUKX1OHm5FVqiFTlz_k5t_1ad7f18kwRfkyFpshs7ut41irMrVLv0atjuPnPNJ3XHEmm5Alil7Uqa4V59D2at_Q2MozNo4Tp1rxtkpfojiuYuqfBJc9jjPZLnNITNJ3bJPl3c84PjJkGD3TSB1yFtxxdh3i4¢\u0001Õ\u0002tbMyw1MjgsMzA5MTBdLFsxLDk3MiwzMTQ0Ml0sWzIsMjAwOSwzMjQ4MF1dLG51bGwsW251bGwsbnVsbCxudWxsLFsxOCw1LjU3Nzc3Nzc4OTY5ODcwNywwLjI1NDI0MTU4MDY2NzIxNzg2LDM3XSxbMCxudWxsLDBdLDAsMCwxXSxbInJlZ2lzdHJhdGlvbi5wYXlzYWZlY2FyZC5jb20iLCJ3d3cuZ29vZ2xldGFnbWFuYWdlci5jb20iLCJjZG4uYXBwZHluYW1pY3MuY29tIiwid3d3Lmdvb2dsZS5jb20iLCJ3d3cuZ3N0YXRpYy5jb20iXSxbMTEsNzM1XV0Ê\u0001\u0003W10'    curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/execute' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=rzGuIo+Ba/Pczks2Je0pRwUivYJS3jDLYFilzDw+9DeFDlZy+lrpoujaBS422IvE/HVlfP0O/Mg4KvMrWBSaRW03wc1SJpg4YH4enK2n/0qwhf6zotFbTGCO95nr+H/PjAOTl+3aT6+mvGRO5NarKUD8DUNbq02s94y1PscNd+Jme2sdkCs=; AWSALBTGCORS=rzGuIo+Ba/Pczks2Je0pRwUivYJS3jDLYFilzDw+9DeFDlZy+lrpoujaBS422IvE/HVlfP0O/Mg4KvMrWBSaRW03wc1SJpg4YH4enK2n/0qwhf6zotFbTGCO95nr+H/PjAOTl+3aT6+mvGRO5NarKUD8DUNbq02s94y1PscNd+Jme2sdkCs=; AWSALB=IJAHSEfeTa6jhXAt4Qqqi5+4HJlj6ehu+/7i2IQ57IjjFnrMPu2GuPOVxZRKUHdWmczgVdWE6cIi5YaX0xYrTqulrTHmEnsVeFTXN7ulw4DGjrHUrtNXqShAZoK9; AWSALBCORS=IJAHSEfeTa6jhXAt4Qqqi5+4HJlj6ehu+/7i2IQ57IjjFnrMPu2GuPOVxZRKUHdWmczgVdWE6cIi5YaX0xYrTqulrTHmEnsVeFTXN7ulw4DGjrHUrtNXqShAZoK9' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-captcha: 0cAFcWeA6yuWUgPeRa1-QhLOX7cQ9V7stJSrA6wAh1h9tVGCYIGMu1jnCkQ-8P427NqlP66BtzrbB1imQKZioVJI69RiuPGjC5byDAiN1M4JKl7gVuSej6hb7T-gIhIkEwzkeCeOUQ887v_DMcwtAtmhTlCmeEkTMpidxofNdFHH-0NConqts1h2KQU205-tTkTh6jIPmwIlTCKjen3VtYp1PBuK5HWMEkaOmcQXlWyONVQQ7UspURCIqelAv2wg9DPBB7z0knRwsPg5JwEobg2TjQjEhZNYNaQC7z8vKUkQv72J3t1_-TuXppn0yvegIHMBy4tyMAp1waBirDXyhGDEfflMTqTBGpeyXuukXsxFq-iyoynRdHFb8p_1x0M6yH4N4GxX1hkAD9D8uxro8gq3RXW9xxaPcmN8MpdQzAGauSESLkt3bbVib-NDzOiCzGUBdhGRY2tBxHlnbPhTwST28P5FO2t2hpGbHTvr8DqOZ_sOYIixQ17IeH9XaAj1NFARcwyJfZekP_Ah9drXug9BloguyW08ka417agHyRqSZAGiAbs2EbDaE7qN5dsObIanWMQ8JG3sM15dL2XX3FXHIUB5Se_X6wHbSfnrQMYy-Z5MG_4oG1gvmglwpPPynoTAthYFu0wYVAxib-tZf3Yixyfd-giOc_VVEJ_AUAQiIS1bU7GNh0Wgva7rszOeOynP5IBHupnKlmlvvr2pPkdQdPNoIMmTmu2X4RkVy8A93_hlEQZLStM5YqmPP0kdUWPe2OGx6CFa5bwnzRYTfV80ehfOImiXt-rsO8cac3n0t0p2Rp80rUT6QgYS4Av16KG2qCVMYFbIMxJ4C4yuzU2wCCn-KGmBBvrDHIanwIxggMHRzeCytjUuYPSqExbEa27mE8qpvh_03v1w63IoTXPS0cZa8UV3woGzt5dfngJKdUSU7KPjGOckK_lYBzP1V84rRe3uaHAKMZ1WVI4nnkq_7N1kAbMUd_WpBMkaTKajnPCJrHus3Zb6Jt4mZqzcmRkwmOjt_FDZCGGHwxeeeqiw2tGVO-qOufz260uIyEe5v1PhRdv03v8ZGo77xrQjRKkevP3zEJjstb0LmU8rbK6LYbPkYUxZml2x2SVCt8G0bmSjfzUJJPajkSimi4ndR948QyxAhvXkpfVsGOCzkAdluvv5mLmkqFx4s6rR_0-LBfrAvOJPshiFgREuAVwqAqwHFjxhpcctTRcrXuWz4X5n4Tg2vghdlLRRW2-aa6lJld2txdwq5iPRuzdwq9s7pNzT89d5AJmf2zl91siBaFZrJYpipm8ASkmgwYLddOO0MMHzg7b1cG3Vf132j283Ds27U4bEYPXmW9TfbyG6nzX-eZ1Ol47URkBX1x2fOGg-KOAjr0pRw9RpJtdTDYLKNXUOF6MkitC6dlY0FjpP7Ui7fNLVAZPJJTNOBnH8_nA5SYrSlAMTT_27IXII5ywg-qL1iTyZsx61vUVDWswi6UnbVKaL1tw43JNtpkpMX-3rSe82zmI868g0YpADV_23O9yFKpMPqtWJNh61fGUi-WKfIDrqBDsZIT_rlh2Xd2S8IXVoo_HLwnegjgVT4B5bGvPnpANuGum255lHhj1A9ZG7CIozqZZQsejN-dczv2qkbnS9evRSjS-6F9AZ8An47IKkkNJbCQobPaZMyJwberE0pP1gwFcLKmFCyXEvS60-5lTFw6App5iwwWFUKlhPj-ippDKlSn4IW8VvzZZFmzLRxC4BEY9-NxXOuGkOBK2kcGh9xCoaFqZYOIgw9XREwrCqHAsSbZtu09TH9DZlV-LPclFbHyawbV71VD4S82ARHpxUXAsKzXivdwMI9DdaJszYJ5wH0H5Dtrnwh8i0zC95OIz1afMjQ6qF70QvyFgInbsW6P-iD6sCWaC5godvotag4y4hXYNYoj9GC0Zq1o-Tdp3s5gbWpiKnr6Y_MngMuIiFRsw_GCsBVGUNI3gxtQh3G1mYKLPxkqy115NTFK_lJsOA-C2Q9vTB3oJmNsGZL4K0-W3KcWTqOBvrmcWo4-WZFnqoaKrKNzy7-RP0l103XMR4_6vhHkNh3lnN_ei7cxkpLzH4o5fTicmey9EHtw9tg2JMCRnOUXpQKfKBWq56L5Nm68XNPqAnlimBMcpAm_WHECZ3EgKWU6hYDS7la1pv69vEdRxV41J55EGex6GU4pCSK6ujZWVqpLDXndn-cMlzAYjBJQbcXtnKuoqWjgvxQkF6rR84TDaB0JMPa2g5wgM8zkPTjWc2DmlaGlSSj2-Ba1kqO6GDirJmNjJdw3XY4VQ_gomG1D_7bIpwC6fr64s0hGCLsgxg' \
+  --data-raw $'{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"login_details","stepPayload":{"password":"Vishupal777@@","newsletters":true,"newslettersConsentMessage":"Tu reçois des informations telles que des notifications marketing, des actions promotionnelles et des offres exclusives dans ta boîte aux lettres de réception.","pushNotificationOffers":true,"pushNotificationOffersConsentMessage":"Tu reçois des informations telles que des notifications marketing, des actions promotionnelles et des offres exclusives sur ton smartphone. Si l’option est désactivée, tu continueras à être informé sur le solde de ton compte et tes transactions.","inAccountOffers":true,"inAccountOffersConsentMessage":"Tu reçois des informations internes à ton compte qui correspondent à l’utilisation que tu en fais. Si l’option est désactivée, tu continueras à recevoir sur ton compte des offres qui ne seront toutefois pas nécessairement pertinentes.","digitalMediaOffers":true,"digitalMediaOffersConsentMessage":"Nous utilisons tes données pour t\'envoyer des annonces personnalisées sur nos produits via des médias partenaires tels que Google, Facebook, etc. <a href=\\"https://www.paysafecard.com/cookie-policy/\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">Voici la liste complète</a>. Nous utilisons en outre tes données pour analyser les tendances des utilisateurs et pour optimiser la manière dont nous nous adressons à ces derniers sur ces plateformes. Si l’option est désactivée, tu continueras à recevoir des annonces de notre part sur ton compte, qui ne seront toutefois plus personnalisées.","partnerOffers":true,"partnerOffersConsentMessage":"registration_login_details_marketing_details_partners_explanation_field","email":"kaloxe2945@bullbaby.com","completeWorkflow":true}}'      curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/poll' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=qgpFp/ptMmIj8PwpIKmmLYys98/13UXGyRkOjgr/red3U8DsPxOvrqaSBf3DCxdlHS8TGogU8rWLtrlVGjPs2MJMZkjMvtI26KofujeqW0enj27td7FZGlhREAMCo0oXIzhiGdpE0a6GCRLM44qP472W7FLJsMlqm24QVzRWG+Xf0ATVYa0=; AWSALBTGCORS=qgpFp/ptMmIj8PwpIKmmLYys98/13UXGyRkOjgr/red3U8DsPxOvrqaSBf3DCxdlHS8TGogU8rWLtrlVGjPs2MJMZkjMvtI26KofujeqW0enj27td7FZGlhREAMCo0oXIzhiGdpE0a6GCRLM44qP472W7FLJsMlqm24QVzRWG+Xf0ATVYa0=; AWSALB=6s8b2tcdA/SxeIzpcWxcBaI6GJG875fnY5zK/BScm7XAhQE9Y5YtiNh+TUDagtYHKwDMluMmNp87bqFGQ4iMgKl8Lg1eLVFD2tUvAq5e8jWAjQ5r3Thv7URUB6SW; AWSALBCORS=6s8b2tcdA/SxeIzpcWxcBaI6GJG875fnY5zK/BScm7XAhQE9Y5YtiNh+TUDagtYHKwDMluMmNp87bqFGQ4iMgKl8Lg1eLVFD2tUvAq5e8jWAjQ5r3Thv7URUB6SW' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"verify_email_address","stepPayload":{"isPolling":true}}'   curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/execute' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=wDJrsQpxt4/+xGGY4o2RcBE5gDh2Bph6gIGh7+Lx0ER0y/HrvAOdgNZSNnINaMs5aCm87mvqkKzAi+AxIBI7/rVMnMq3l3rZM5Fi8oB776/xO2xDwwiYXnzPfUDLLspNCznX9GO28Nboj65Uy5mOQ5iHNonSXmCaBkXWAGCAK5U3cn/IfI4=; AWSALBTGCORS=wDJrsQpxt4/+xGGY4o2RcBE5gDh2Bph6gIGh7+Lx0ER0y/HrvAOdgNZSNnINaMs5aCm87mvqkKzAi+AxIBI7/rVMnMq3l3rZM5Fi8oB776/xO2xDwwiYXnzPfUDLLspNCznX9GO28Nboj65Uy5mOQ5iHNonSXmCaBkXWAGCAK5U3cn/IfI4=; AWSALB=65Ch9sqwLMeB+zXsmVgpUvgnNUaONFbrYeyS1Pl0qwNcvTiQ/qlS/4NIH/vLGMmksbOzNHiz7bVTuCRe14R3vIsD1GknwmbG0rJT3NFs4A+OBB5MlO2TH5ORcAhT; AWSALBCORS=65Ch9sqwLMeB+zXsmVgpUvgnNUaONFbrYeyS1Pl0qwNcvTiQ/qlS/4NIH/vLGMmksbOzNHiz7bVTuCRe14R3vIsD1GknwmbG0rJT3NFs4A+OBB5MlO2TH5ORcAhT' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"verify_email_address","stepPayload":{"isPolling":true}}'   curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=zmIZA8zXcYARbLTkM5HScWrA/a9tOBD6DS9wnFXTs618ULyrdES8N0YPZOJvEPrp+aVROjHZ6psBAPw9TjwKakWAkef1hgNeto3F8aJDbZLyc+sINQ3xSc4V18q+xJ1LPvvK11bw7+e7bmENgxILTjv3pIj0Ph6jaOvrSkWzGXfE4cfoMJU=; AWSALBTGCORS=zmIZA8zXcYARbLTkM5HScWrA/a9tOBD6DS9wnFXTs618ULyrdES8N0YPZOJvEPrp+aVROjHZ6psBAPw9TjwKakWAkef1hgNeto3F8aJDbZLyc+sINQ3xSc4V18q+xJ1LPvvK11bw7+e7bmENgxILTjv3pIj0Ph6jaOvrSkWzGXfE4cfoMJU=; AWSALB=j/oqLz9ccAXmUIYPVnGv7erx3VG+UbdYzNd5gBkdeantYTaeW3q5jSI13752wQqyMtEijJCMG5mcOv7hG1edgwu06uLpBFuNdaSAvhRlKIXjuxMbaoUE9b5FhGWA; AWSALBCORS=j/oqLz9ccAXmUIYPVnGv7erx3VG+UbdYzNd5gBkdeantYTaeW3q5jSI13752wQqyMtEijJCMG5mcOv7hG1edgwu06uLpBFuNdaSAvhRlKIXjuxMbaoUE9b5FhGWA' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"personal_details","stepPayload":{}}'   curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=jqGUeKdJtcrY3lQ1z7A/rgPdTj0iY32od9YeoqLJv5KaE9BAI0DhcfweerD7/e9Bh4vJZg2oKfdIY93Yl/vGxdcXbh3XjfF53s1IUlGaYYeeKeHezs5BsFX7oINCMFxGN91lFz6Co3FI+Jh8lhO3AeJvnplEMb9P2EMXCPOLceP3Cktl0ak=; AWSALBTGCORS=jqGUeKdJtcrY3lQ1z7A/rgPdTj0iY32od9YeoqLJv5KaE9BAI0DhcfweerD7/e9Bh4vJZg2oKfdIY93Yl/vGxdcXbh3XjfF53s1IUlGaYYeeKeHezs5BsFX7oINCMFxGN91lFz6Co3FI+Jh8lhO3AeJvnplEMb9P2EMXCPOLceP3Cktl0ak=; AWSALB=st026hSKtDKt0mjWmg8pZJ4D6xa61eC/aW5T1bFEXv+5nGc3yUDMHIRScuEXFTmlJZO6IbMtuwUcPfd3EGEqpAofVFbYElNT1v91C7/on00QiMX1BoeAH9N7VKiP; AWSALBCORS=st026hSKtDKt0mjWmg8pZJ4D6xa61eC/aW5T1bFEXv+5nGc3yUDMHIRScuEXFTmlJZO6IbMtuwUcPfd3EGEqpAofVFbYElNT1v91C7/on00QiMX1BoeAH9N7VKiP' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"personal_details","stepPayload":{}}'  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=uIWo0rDOTu/MyP+BDbs9uudo694FyRk383G7V4N1ipp/dAp4Br9p1N0oj71IX6wOM9BwqLnBK+M6c0zKnHwHMDZ32vohXWhfpnnqrBzs/+eHR4HBzJSZKwz2a5v4uZK2puYJ7grDsSsjMzxeEncVrUN8qh8VVQB17gCMk5s9b7s34eI0tz8=; AWSALBTGCORS=uIWo0rDOTu/MyP+BDbs9uudo694FyRk383G7V4N1ipp/dAp4Br9p1N0oj71IX6wOM9BwqLnBK+M6c0zKnHwHMDZ32vohXWhfpnnqrBzs/+eHR4HBzJSZKwz2a5v4uZK2puYJ7grDsSsjMzxeEncVrUN8qh8VVQB17gCMk5s9b7s34eI0tz8=; AWSALB=uWxihfhyHLB9ceA++0icOwImpOKRMbuEnJ7m2xGqfJTpThSccfqrRwbzBF8woEII6EOop4YYuMaNXjF19BES8OMKNj2JBj7NvZa0JxgA7EeDXM4n2qu8cYvalWsb; AWSALBCORS=uWxihfhyHLB9ceA++0icOwImpOKRMbuEnJ7m2xGqfJTpThSccfqrRwbzBF8woEII6EOop4YYuMaNXjF19BES8OMKNj2JBj7NvZa0JxgA7EeDXM4n2qu8cYvalWsb' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"personal_details","stepPayload":{}}'  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=Otf+HJ1NROR05aW9yuCRIBtL+aZNd5iIIIcyr+kEftZ+s/HAHQbACair5byDWz1ngGRru033gEw/KWeJfNoMsb4PyeUdJjHiWRqqpbdzH4mlqe1oyJz89HsSSue9fV302bXEsWam2keBXsdO0lmhF89SDn9/DGpYcYjR7mlJG5Kh2yhXKus=; AWSALBTGCORS=Otf+HJ1NROR05aW9yuCRIBtL+aZNd5iIIIcyr+kEftZ+s/HAHQbACair5byDWz1ngGRru033gEw/KWeJfNoMsb4PyeUdJjHiWRqqpbdzH4mlqe1oyJz89HsSSue9fV302bXEsWam2keBXsdO0lmhF89SDn9/DGpYcYjR7mlJG5Kh2yhXKus=; AWSALB=l0MbZJV5c8p2WETtrOrxfr1eAoplSMFVjlHB73FyYfXHTc8hIyw/hFOovo+qyf0bIwRzg/6FlGhUbKpCCIbl6m804vZTZls+7RxVSy6tvISLjYSVOLKKwBj1fJh7; AWSALBCORS=l0MbZJV5c8p2WETtrOrxfr1eAoplSMFVjlHB73FyYfXHTc8hIyw/hFOovo+qyf0bIwRzg/6FlGhUbKpCCIbl6m804vZTZls+7RxVSy6tvISLjYSVOLKKwBj1fJh7' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"personal_details","stepPayload":{"firstName":"lola"}}'  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=JntJgXvH6DRIgHOUxu4j8EZ691B4yiAF4jM/5ZP2op+lzktGN45rbspWR8NYl/9veBrX15qmHi/uv5Gwyqelpyd+TLBpmk605z74ibjM7hO0r2OA/JfHzDw30B6qx8K7yYrXtJz2SAFHuXiYQF8JpLsucn3iY19KSI8tuKJ7tBfb+9cDM0Y=; AWSALBTGCORS=JntJgXvH6DRIgHOUxu4j8EZ691B4yiAF4jM/5ZP2op+lzktGN45rbspWR8NYl/9veBrX15qmHi/uv5Gwyqelpyd+TLBpmk605z74ibjM7hO0r2OA/JfHzDw30B6qx8K7yYrXtJz2SAFHuXiYQF8JpLsucn3iY19KSI8tuKJ7tBfb+9cDM0Y=; AWSALB=u15AHh4uEGl/idG5zcZT1zqN9/P5ZtGXEmdqqhvRETlyi0FzDOODnf4ZhL6M3LYAOMOxgmn1SvnJWpA9mTaLO+QZeWsV2+qSLVDLm8m9AAqZ+9BhJbcVE8f/dLna; AWSALBCORS=u15AHh4uEGl/idG5zcZT1zqN9/P5ZtGXEmdqqhvRETlyi0FzDOODnf4ZhL6M3LYAOMOxgmn1SvnJWpA9mTaLO+QZeWsV2+qSLVDLm8m9AAqZ+9BhJbcVE8f/dLna' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"personal_details","stepPayload":{"lastName":"lili"}}'   curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/execute' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=+dM5i1Y4X5SVmeqhz9JZrMdi/9bDoq09kvNivhKAvDrOENioaIzZlXQIGSQ2O78FzIFKvE1p22EiT8I6V0XVYww/YgUUC0wEWyWFZoL1cqh5XlHu6K/9/k7+pymm/0SIlOAZkFf98hBavUKNYElAaMmihCdHSweaxgD8PNTsy/UAFjBXZAI=; AWSALBTGCORS=+dM5i1Y4X5SVmeqhz9JZrMdi/9bDoq09kvNivhKAvDrOENioaIzZlXQIGSQ2O78FzIFKvE1p22EiT8I6V0XVYww/YgUUC0wEWyWFZoL1cqh5XlHu6K/9/k7+pymm/0SIlOAZkFf98hBavUKNYElAaMmihCdHSweaxgD8PNTsy/UAFjBXZAI=; AWSALB=rB2qOLGdE7TH51VLFhsIrQXnzyXAzWIaIZqdbm1BgUw7B5qCjZjNp+ilaTDaXDYIYQfcO4NgsksqEfUPvxmuhG1PlXftbhWWeWf/lU8RNHkVvcbCcDvX+ZacrV1a; AWSALBCORS=rB2qOLGdE7TH51VLFhsIrQXnzyXAzWIaIZqdbm1BgUw7B5qCjZjNp+ilaTDaXDYIYQfcO4NgsksqEfUPvxmuhG1PlXftbhWWeWf/lU8RNHkVvcbCcDvX+ZacrV1a' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"personal_details","stepPayload":{"firstName":"lola","lastName":"lili","dateOfBirth":"1940-01-01"}}'   ise pura analyse kr bhur tagde tariuke de ab muga ye bta kha tk ke curls h ye ?only bta bta bta bta 
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/execute' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=+dM5i1Y4X5SVmeqhz9JZrMdi/9bDoq09kvNivhKAvDrOENioaIzZlXQIGSQ2O78FzIFKvE1p22EiT8I6V0XVYww/YgUUC0wEWyWFZoL1cqh5XlHu6K/9/k7+pymm/0SIlOAZkFf98hBavUKNYElAaMmihCdHSweaxgD8PNTsy/UAFjBXZAI=; AWSALBTGCORS=+dM5i1Y4X5SVmeqhz9JZrMdi/9bDoq09kvNivhKAvDrOENioaIzZlXQIGSQ2O78FzIFKvE1p22EiT8I6V0XVYww/YgUUC0wEWyWFZoL1cqh5XlHu6K/9/k7+pymm/0SIlOAZkFf98hBavUKNYElAaMmihCdHSweaxgD8PNTsy/UAFjBXZAI=; AWSALB=rB2qOLGdE7TH51VLFhsIrQXnzyXAzWIaIZqdbm1BgUw7B5qCjZjNp+ilaTDaXDYIYQfcO4NgsksqEfUPvxmuhG1PlXftbhWWeWf/lU8RNHkVvcbCcDvX+ZacrV1a; AWSALBCORS=rB2qOLGdE7TH51VLFhsIrQXnzyXAzWIaIZqdbm1BgUw7B5qCjZjNp+ilaTDaXDYIYQfcO4NgsksqEfUPvxmuhG1PlXftbhWWeWf/lU8RNHkVvcbCcDvX+ZacrV1a' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"personal_details","stepPayload":{"firstName":"lola","lastName":"lili","dateOfBirth":"1940-01-01"}}'
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=x5wzL64BaPdEf7NVTh5REvOemIjOKDGk/xA7c79pNtlcNq3HfQWshqlpyPhS1PAl6xWGMTltEdPsS/ogzbPUvipGeYeSqyGiW7Xe4QnRQ3MLYJ7uQ5o8o0VWB2o7AwBCLLyUYmXy0SUkmUtiGeC07wSSR5/P6xUNEIHQbfVUzI3M/xoUCDo=; AWSALBTGCORS=x5wzL64BaPdEf7NVTh5REvOemIjOKDGk/xA7c79pNtlcNq3HfQWshqlpyPhS1PAl6xWGMTltEdPsS/ogzbPUvipGeYeSqyGiW7Xe4QnRQ3MLYJ7uQ5o8o0VWB2o7AwBCLLyUYmXy0SUkmUtiGeC07wSSR5/P6xUNEIHQbfVUzI3M/xoUCDo=; AWSALB=wsfWjVyKdYLjT4G6SuZWBh5nb/S2S/miFryVDIkpAMt+x1t8aOqpWGRoJ7pmfJVjgBBH2+3vkujP7/Iqjrq0fVN+8Wfk6zPAIF/KRjbVjY69iqF6WZiB47gvn6vt; AWSALBCORS=wsfWjVyKdYLjT4G6SuZWBh5nb/S2S/miFryVDIkpAMt+x1t8aOqpWGRoJ7pmfJVjgBBH2+3vkujP7/Iqjrq0fVN+8Wfk6zPAIF/KRjbVjY69iqF6WZiB47gvn6vt' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"address_data","stepPayload":{"street":"lllooo"}}'
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=6LCwl4bbxhTMKoflsu47ikgnDSaVTHDbfin1gR7onJrzLB87/ZoaBWcw96fIbyWd6G1TdcornFN2j+vWPlW85340DkksyPkE7qM7NKhcbGpzaqTew/JbkiKXCDFBOQwrTiG9YHUl8yNVUSOJgbfqFJN7XytxmRdLKLxuQZuYjCtfQlUcrL4=; AWSALBTGCORS=6LCwl4bbxhTMKoflsu47ikgnDSaVTHDbfin1gR7onJrzLB87/ZoaBWcw96fIbyWd6G1TdcornFN2j+vWPlW85340DkksyPkE7qM7NKhcbGpzaqTew/JbkiKXCDFBOQwrTiG9YHUl8yNVUSOJgbfqFJN7XytxmRdLKLxuQZuYjCtfQlUcrL4=; AWSALB=n3IdQqB8zbPANpfrHtn/TND3pBx0HNKh7yJSCwOcGDlY3UmC84NEuj6h+l5tWbBzJfMl2aBdPM+gJ/D0zBlF0i/lQDLpxLi0Nbtp7ivc5IYmYxgPeCXJwiMgtpBv; AWSALBCORS=n3IdQqB8zbPANpfrHtn/TND3pBx0HNKh7yJSCwOcGDlY3UmC84NEuj6h+l5tWbBzJfMl2aBdPM+gJ/D0zBlF0i/lQDLpxLi0Nbtp7ivc5IYmYxgPeCXJwiMgtpBv' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"address_data","stepPayload":{"houseNumber":"lolo"}}' 
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=LqAfVtP3Mov5mXNopbUI82N5sKAOAzis563x74NRFBrrpWVVZUifGKW8YJepS9RIKgneDVd2J8CBUBl89v5ZgsJGaORDzYg361XQObzEucfl3t4puv5n57tr2K1Ik1DpXBG1t2W9P/J8gc1wVLAdbaFkMyz1M7y1EeWTr5WGKKzrw5fZilw=; AWSALBTGCORS=LqAfVtP3Mov5mXNopbUI82N5sKAOAzis563x74NRFBrrpWVVZUifGKW8YJepS9RIKgneDVd2J8CBUBl89v5ZgsJGaORDzYg361XQObzEucfl3t4puv5n57tr2K1Ik1DpXBG1t2W9P/J8gc1wVLAdbaFkMyz1M7y1EeWTr5WGKKzrw5fZilw=; AWSALB=hqoGAGXpNasUrX9Xvk4sghSByUnCGUwMye1tQfkTZUWWG3DDFS31HNd35PzmgTzCurE4T0BV2iBiKF8i64DKXV9HOGURQ1cN4abH8FZF+zZNT55H47qX7Ur6LJFd; AWSALBCORS=hqoGAGXpNasUrX9Xvk4sghSByUnCGUwMye1tQfkTZUWWG3DDFS31HNd35PzmgTzCurE4T0BV2iBiKF8i64DKXV9HOGURQ1cN4abH8FZF+zZNT55H47qX7Ur6LJFd' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"address_data","stepPayload":{"zipCode":"2002"}}'
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=1qScVfnc4dFsF6eQAHb2FEwGV3h9FL4m4Gw72sNffulGI5qxNY/F9kMoHLPj70q40t2vbgzWAc3iIpNR6a+orrw3CdcExq8AA+9Et5Vw1f2Gmvk0XkxRsdHBAPsqtRE5uG9vJELPBs2UVV5ZlHwEiiqW6VvcdxgJuNtHsMm/svJGlddEbvs=; AWSALBTGCORS=1qScVfnc4dFsF6eQAHb2FEwGV3h9FL4m4Gw72sNffulGI5qxNY/F9kMoHLPj70q40t2vbgzWAc3iIpNR6a+orrw3CdcExq8AA+9Et5Vw1f2Gmvk0XkxRsdHBAPsqtRE5uG9vJELPBs2UVV5ZlHwEiiqW6VvcdxgJuNtHsMm/svJGlddEbvs=; AWSALB=wAwD28OCR73bRql8foghxhIodTyIY/cACB/NNg0g2W7luqZcpRsJsDTnDPKRarOVrI7Lxf/UXa81Y3r55quHxLuWL1Qa2RJihSk0BCo0gkCFfWUS+gdUGi2rmMpn; AWSALBCORS=wAwD28OCR73bRql8foghxhIodTyIY/cACB/NNg0g2W7luqZcpRsJsDTnDPKRarOVrI7Lxf/UXa81Y3r55quHxLuWL1Qa2RJihSk0BCo0gkCFfWUS+gdUGi2rmMpn' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"address_data","stepPayload":{"city":"chincho"}}'
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/execute' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=1qScVfnc4dFsF6eQAHb2FEwGV3h9FL4m4Gw72sNffulGI5qxNY/F9kMoHLPj70q40t2vbgzWAc3iIpNR6a+orrw3CdcExq8AA+9Et5Vw1f2Gmvk0XkxRsdHBAPsqtRE5uG9vJELPBs2UVV5ZlHwEiiqW6VvcdxgJuNtHsMm/svJGlddEbvs=; AWSALBTGCORS=1qScVfnc4dFsF6eQAHb2FEwGV3h9FL4m4Gw72sNffulGI5qxNY/F9kMoHLPj70q40t2vbgzWAc3iIpNR6a+orrw3CdcExq8AA+9Et5Vw1f2Gmvk0XkxRsdHBAPsqtRE5uG9vJELPBs2UVV5ZlHwEiiqW6VvcdxgJuNtHsMm/svJGlddEbvs=; AWSALB=wAwD28OCR73bRql8foghxhIodTyIY/cACB/NNg0g2W7luqZcpRsJsDTnDPKRarOVrI7Lxf/UXa81Y3r55quHxLuWL1Qa2RJihSk0BCo0gkCFfWUS+gdUGi2rmMpn; AWSALBCORS=wAwD28OCR73bRql8foghxhIodTyIY/cACB/NNg0g2W7luqZcpRsJsDTnDPKRarOVrI7Lxf/UXa81Y3r55quHxLuWL1Qa2RJihSk0BCo0gkCFfWUS+gdUGi2rmMpn' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"address_data","stepPayload":{"street":"lllooo","houseNumber":"lolo","zipCode":"2002","city":"chincho"}}'
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/execute' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=1qScVfnc4dFsF6eQAHb2FEwGV3h9FL4m4Gw72sNffulGI5qxNY/F9kMoHLPj70q40t2vbgzWAc3iIpNR6a+orrw3CdcExq8AA+9Et5Vw1f2Gmvk0XkxRsdHBAPsqtRE5uG9vJELPBs2UVV5ZlHwEiiqW6VvcdxgJuNtHsMm/svJGlddEbvs=; AWSALBTGCORS=1qScVfnc4dFsF6eQAHb2FEwGV3h9FL4m4Gw72sNffulGI5qxNY/F9kMoHLPj70q40t2vbgzWAc3iIpNR6a+orrw3CdcExq8AA+9Et5Vw1f2Gmvk0XkxRsdHBAPsqtRE5uG9vJELPBs2UVV5ZlHwEiiqW6VvcdxgJuNtHsMm/svJGlddEbvs=; AWSALB=wAwD28OCR73bRql8foghxhIodTyIY/cACB/NNg0g2W7luqZcpRsJsDTnDPKRarOVrI7Lxf/UXa81Y3r55quHxLuWL1Qa2RJihSk0BCo0gkCFfWUS+gdUGi2rmMpn; AWSALBCORS=wAwD28OCR73bRql8foghxhIodTyIY/cACB/NNg0g2W7luqZcpRsJsDTnDPKRarOVrI7Lxf/UXa81Y3r55quHxLuWL1Qa2RJihSk0BCo0gkCFfWUS+gdUGi2rmMpn' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"address_data","stepPayload":{"street":"lllooo","houseNumber":"lolo","zipCode":"2002","city":"chincho"}}'
+
+  curl --url 'https://www.google.com/recaptcha/api2/reload?k=6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/x-protobuffer' \
+  -b '_GRECAPTCHA=09AKhCRwiEduOkMIehyMNda9TQVYqE9wcMRyy5PCMlzywRzcEZfWL-0djnEZL-gqH_7a1YB0uuVajex3saX5bfqiY' \
+  -H 'origin: https://www.google.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.google.com/recaptcha/api2/bframe?hl=en&v=kemdRjWFxNjgsGdhRslyEPwU&k=6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4&bft=0dAFcWeA5-IwSBkHFqproWIwda2c-SpX_A9u1CStIU0JtFovpX0lNVekk-cdvSQP5cRB_0CNICuaQJFkk9JA5s1AcauN4y38mdmg' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-storage-access: none' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw $'\n\u0018kemdRjWFxNjgsGdhRslyEPwU\u0012¹\r03AFcWeA60kAEa-d4Y6BSV9uZZ9MXOvBPsGAFGCZbW3vbIEAAJOwbww_eY2Wx7X-FYYL2-BcFAtsHaJEm1kBUzTrfMNwL2PuqYNWvVTxyGuJ6cIiFIovtYhZRWZ4SIFzLzJdK33Q7h3EVodIMOkwohNIOvq1O4J2w7slVLwy95yXz05AX_uzGqdvy03eXYrCVv14rwz77mTqgRnEgnxOHyH10kHFNO8wpFwTDCIvnOKXpY16-tY2zQnM9eARdEYgnBPEYBvIptNJMdBewS8GARSUWDisFN1xpVkgrJOtVUB8XCWdkcLBy9tfXpk5eCbRWtT2fqBOz_R1k9m0ugh84ow49ikXMocGfgF2ErL2GEZFDJCFy4BATJPj0uh2vwO7V1dMVynueuGKp-DA-J6HEl36-bVvvNbAqlaPrqjPTNfsr6whogAkjSAuRVSQs93mLSknxpc82WcEGRF1aHV_lAQjbl2JMysX0ssi3EV2yxeP_3QdZNv2l3yIfxPnq8-iNidvmr9wOgnG3sPwogczhW8LNYy6DF1tAUlURC23XqhpWNdcql0GLDdJQMvujfTuzKyf3d9N0iTIUoxTBBImhQJPoo98Uu_CuYLmDYTcQz7FZlpkOTBFeWG0UCTAXycpUfdgioJNwwaAaw6A9TP68urBdGl_YOoG3mPql2i4E7y6cp1K4WpjRP_rgULqCQZViwHDYpW_15_FckSIqLUOYbKk6M6EfwzPm0IMcA7zgKvSp0cxoHMT-fXWTyGmIUSWRfhrBvlnyzgXE4GDwHapFZlUIUEuuYQDWRVDfk1MnmzcPrejtfvTZX0B3v6TTNOKQU8zcQSEszJpAiOf0sQaVevtetJktOgz-hCIznyREf_L1apmCjbMbta-AFRKU7Zl40rvEv-51Etz5thfAclCc80R9jTuAAOZRJ-LRfX7HlEs_r88FnaslFYTkfVWwKVW296gC3uVIJD74olDvt-J7EkYHvIY4vYdEZ-A-cb_SgiYRxzPm4Hev1t-NTJnNDKyT01mX5JDLKAdA5f5JcRzRhdNMDrZQWCZIrCpkM5Y1AEdoSepAV7J6V3dNz2n_MDaY2Wr-3_qrZ_IifqN-QBt87lmt_b6mrK4LSQu1bNj_gt9l-DFWLWgpiq2CLlM-q1_ZpfYO647BpiyEZG25Ux0r8wbVEjK1dK_YVarE1akBD9YfkW-d6oE8hWpP2bP2XF6__aJqf4W43LNVg1yAqUQSZiyPGhoXDQl0vBdl-LLq9lSGia_1GSVbG40lanyFDycYKglN4jMnw1rtmxfsTX84adoF6TFCKEyAmG-ti-1BFg83PyG56MQfcgbSCZMvpoYl9hxlsk39ffdg6asE4Alr68PoDJpKKaIb6kSoII1EAeV72L5l9JeAKvQ6o3rumPU16Gi-8eUd9ZkUfxKFXDWy6NjRiHNH78pMY37aqbtiJjqpIlZARBKHb2_O6GAk-r8QrtNZOGQbE2v5QaG989pYYIp8pb2uXYy0LMMKa3l_9ALDNjHflLHZKJJKZeNJx2bDMJEHyzac2MGt_MotlvIJi5Yf7MLxwwO8ZWjayhbK9g-9ZPYjrMCo2-hUlkHTYXO8V6ZfpCwf5wmstAs9NBW2mlXFQsoQTkerafT96s1CqFEUtg5DQnbd3MplW5JBMuEdhExa9uc7P4i0H1SRmsl22hTxAWSWiGxXE-jZ3MkE4kWIRjzhq-ul21ss*\n18888569472\u0002fi:É\u000405AFzLYhhi9aYwPOSvuT3FE612GhQEEDGtrL7jKoVuBjaGX7EP2tk88Pbc6o9gzoIM5i_v7RPADA_RfkbZDF7sWn_jn-qVJh-fXA9PLme31AXEsv_QAgLmW9x04X67QDwKEcDBdjqISq_wjrH-nSqevDODdpjfL9zBTlOcORmmHqkp5G6yrGpn6sdYaQy8usEkI0F6qv9TkMIvYGKMt8jkQR70g_F8v1-M8ppcOWoejORbGucWpKrF6GBIjHVvpUrDRjEaH-N6rhnFQWiPtp0FrzcAaG-wxe00BDWSM3Tre9DE6KKqJc82TUYaYJ53KWUEBkYb5ND3p62vEKGTFiqIrhstmQKq-R5fZznuw9KLrqo9iY0rLF-l3xd41sDr14V2EduvoOddFWBJPZCEJfVp68lkjj2m3UJobUHZ9lUN_F8aPUztccb87sZXSMiBYxeCWe0s8w9G1T7gqfiUxaR5Kes7koSJAmr48LF9wN0RVverexhp8ck_OHNQ6-eqKXmZ86zHE9u2RXyUWiknTDMr83lu8H7XXtUc3Ua_mnMZQlSm7kNPwiY7szGdgOxDHhZ_FB2P6Fcr(6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4\u0082\u0001×*0M82haSHiY2Yu5qcoK_OrbO3wuHAxsmk8AsCwLvnEe35G_r9AQwvDhAUI0IhJys2VTQ6PkloS01RXH9eYGRzknF3e4alhIqOmbibnaGsz66wtHaWucjjUn1I6tqZu_9yngiztl40b2LFJSgeSlEQTs1pDFrh1NA28jjT2jooa4ZxTQPvBZVjpqaRHEvRuSwPKrFw6wYIo8_a-dje4u4M7_H2ASADBQkUNxYYHCtKKS8zPl08QkZRcFNVWWSHZmhsLk5Q1Leh6Wu3IhU00yqBDLtepZgn-qGsJvrZk_L2ZZQLWmHYE-aqDCs6rZ0rwsng44rWGUfuwbzHdun9U_NCFXRrDlSQLxo9yMbt8UynKlzMkyqY1CeqqODHalHcT3bJDE9angUHseUQK0Y9OCdSYVT7OvkZHCZmiXvi_ZA_aomUm5Z9qLuvUZFTc3YpON9G2VxzRnmb2_otw7Ld_QgDAfEcLyLFBMbm6ckG9iE4U0pNNGNyYghICios9E9B5UvG5mVMJynZP7amtHOevdS7xrHc79uFxYenqoHEUrnk_BcCEPgnNiHMD83t8KOvEQAvRmFoX0JtfGQWVhQ0OwJZj8tZ0YiSmiz37qpxf9Z9qMvi0ei_6vnhk9ORsbSXEe34f_bVWBcLCeiXtnmxKAcmSMwKSVgbRmVsb4ZZhJd3LW0vT1Hg1_u-KX9umbDLtsWs2-rOgMCCoqWAe4204AMGGQv3IjEQywrI6Ow3Ff1TAi1EX1ZlQG96ghRUFjY4x_5FcIuikbSHsr3FW5tZeXxjmYi31u3Q38r2AQSe3py8w4pN1CeK_hiDqnHNBEMl2SOa2d0rsy0cS25phIeSiYx7onGgi49FhUdnaiz4Uras28OGDahO6eFEy2JeB7bh-QwXJfUgLzbJCRQ3Fhgf3f4AyDrOaMejYaEvav5c44OB9EdyiaCvmoWww79ZmVt7fl0DirXU79LdyPQDBpzcnr7BpP8qkaUPbv2NRypGINOjQWDHS24Yp9d2YNvWbhB0FpYRd_-CjRy-ngGcg44hhLsaeRyLul1M92HdX_ACXdxEEx0g344xnG8vEbCXln29PGJiZWgy9WSYcyHBDDs2BPxzQqR77zGVUBNGeRDLVsmYs43dTONyHSyvge1NC2rle8LuBQwnHi00Oy4xMBtSVUzvLu0NE6NtHEtieWiHXomUmDJyfZx_gYVHZ2o9z6-CGXyKxYy71tH4-_bh_Q_vDeUcHya4-Lra3jifoqm1B9dZqJw3TkEb9zls__dx-QxnWd1cDtZhkHumhOvHqa0UuxbBtGte5Tfzxrzf_urtABfHFggPDiElB9rBmP--xbhL_v34Q99SFKgzAdlsQuqQx-rdyZxjMiknXomgx7KpyMPaudzntu3s8IrKiKivZj2Ym56d_876FSQXGjU0S0Y9IEM6TfQ39hYZcHYlUGuCfXRnkqGZO3s5WV_vuWiXtrXUu6rV5Nh-vnyco-LWBMQF-YvC7gUgKx4BLDsi1RTW9voAhFrBtWdzGej7tuncd3M-QNCbmc1sq7IFe8K6RQR6-ilYEyY1ENveOcCsAoT0MBKVPLsWVRRXGo4JP4rFfJe6udA8CzXMQ7bp5ThHAbTTeuX4oJ8hjaiq3oWfrwX5ADL6WSSLClkgn2plQEgHCVfnRrXc21JhLHeHPUFD8oV0P3rZ5WM6oVS3ywG1MAbJxTwWhiVMJxKtWAaemagDAbCkB55V4DcV3UxC5fmcs0HtVFv6kgzTYyoAo2cuKIgqxfTTRuJlJELyTSQ2tWk3at2BE4chpVSmqk0INxJtQ6_KzVQLNolo6-6gyDP6xYSAAk2RGBJd9Jd3MeCnssWUg1L6GJ_nGgk4ap25SH7SVQOSZkSD83JdbGudiOvjIh03v3olGJMeYejv7kUsQ9JQ7POK5aCX3qn0e27mMPguGbVP_rVET561kWuaujzHasXNEH76VVvfJdWoj2HdRMLqMbgXUcmc3wpRP-OuyOCvMjmVD2712RtXIekbfiGQhBa5gLObFVEgHzWxQ6dKaYOq-kx75tGdlCbV9VQ2-m3AivpRDIepwMirLnGUO9IxYDN2NdvrfqFkp2pl3LA-jTSProI5DCqSSJQmchi4VwXo12-KCPhq1llUryKA3JKuIXSPHg0YoxbhkKLy7aA7OkW8p865lA9KXXTsLtXguAp9xQNOmgUXYsoVZ19BwXd6dclQO33A_0ZxiKOanYS_w1WVV3d6KUxDOpFMb2KlH6bR8Qvu-eUQHyK4-Lra3Vx_hm3wczKFVSROshVHlpnpOGOB-OxSdhSEcunNa-axjKRu-e3AJyo9qAbqxMB34l1w8A61SItixdkTUn34ayKJYCNq7bhEHoWNI57uaMea2WkzcvH004dJhPfqmiz4hyow-_9t8TQThrWMMtq5cJMe0XT6_s4Maxb1SG9aoah7Yvlob9KySR_LFhy_2ynIv565-XQKejw_aoGYj6p9qLe7UZFTc3ZZFJfWGbjPQvlgg9qp2GwSuPz3Du1j_5JZYLv2Jkg8Sx5QAy5dZEtacVh_clGIi5MlZSdHSdWMqlmEn7atxJvG0dFvr22NkJbd8OSDei3Qs3bVGJfGCiiDHzIBG3btRTQbCTjjSq4lF279XXSG2oEAlpqhS996mZyGqalv7wq80KeGqS_e2rlQ51HhhD_XDYSTGyHEy-YOJJbeCSA_RjkcS1ZV8DPyEhS0bq5451ptkUgK7ombeoqNFCsR7OSTMfEQoxHczBsZ2UgrJlm4q07tUBMezWAQJdUAIy41IBdCTUzrKukJD15uYNR_UXWLzwJQ-JeWiawS6m2IZv45wFOiBZBevjlsTxGYx9756QvbBhEQru6szNPSERjrqvzsGzpBWEcuWWRgAkFcZ3JpVRc3Odl0jxmRIJ9yUPR_BbUMU5l8q8LV4M--6fTwktKQsDvGlXD7eg35M4ayGCPvGkkz1rlscwo1UE9qcXR_hnFsc2KZmKA2djRUWtplEL8aHKAW-gXLwxqpSDcyaSPnOsHkl2MhRBtnFgkbYl1ou3tE9CM6UTxHNmFsYApKCCguvmGD3sGBn5LeGPhbDsTkEwI90K9eGeCjPlWc8649ALtacQUGwe0EHyIdAC86LdQX1fX4t8sKTQwyXl0YAsGtb_ryAOu-ko0j1zGVoCKyqQQ2zsVcR96tFCsy9UQf_m1MdxKZbJPrBhgYCmFsa0MRhMv_LYibpuHYp1caIKwDQc1PssY4fAcGFKiPZp03owJtz79aWUTDWmEYr5ZduHPy9Ojv1r1JE_bR9HfbGj0MQnWFS9ayXFOKlbjAbt3tX_N1-Vxe1dV4h2XcjGtmhZjC-pGchwpJkLc2Vdw7MwEgr05xRN9a3ZUfzhIo6Ca2KDOCcSw8CoGQW-NySXga9kz_0rYxU-OFoQgrgjSoMp3BdD-SMRu34dE0K_JxKP9-7WRb0mFMO-LphGNy7ii_njIok_bSM_8qSUxTTj1UV1sRURMzNf07-n5JG9OZ7Rvjam2Yy8n5e7reYVAzkpVgQ_Ixa_q14PgTChj0Iy4dyAvJ6e0XiqZA40bdSORS1VTT7uFY5_8BfMQm_mzkD549DLPGdQiXTqEYT2bRwB8lnMvq-fj73woVALLysbS62mH5JB8aDUAl_SgHRllYFAZGBCe_YmVIY0k4yGOOhYBmXYhnprm4dGamZIQ7wtiMFrYh5KfeuLfivh0jy7q8_BMF4bkEHvopTEIB8DPy9kVkR0lMZ1ZpXDt-9kkbkpYosKLqMZwu9gmf194dx9NKbZin4s3Qc9Ht_FNnBhgnenlkICcuCPAeTkAzRznRR8ad7VxnZnGHwrnZZGd6XSgfYiikqoplfK9yBPhTBuUsqu3tLH_GMTT3WxIc74LV4BtSDYhfKvoUr4KeTTw2lgkjYrncVEdZsOQGeoyTlyZwpKMaDTgSscl_8xG9WBrdyVg_Qi1cExWtn9_rCeju8v4c_AIFxRQ3FhgfMiU4LwqxzRO7Wfkrgi4cXGuKaW9zfp18goaRsJOVmViryqmvssW4z8KeqaB_tnV0t95CGP_t0cAADy4NExciQSAmKek4Wzo8Q1ZJXFMvSmT_6wnRm9KqFaimlpl4C4qhtC8mHdA3TqW0x_Ls7OQCuWkDUvWJEwqJcH7i0RDQI0IhJyo9MEs6FXBj514lgIt1uQiC0X0Arp3lNBueZZxDsgFQCs5BNJPt2ThLrqWsg9Lg-HsildgIKh3onxsduQdh-egr6zpZOD5BVEteUS0zy35gi8NaWKt7gfFAh4WwcGKiYbDTsrS71sHUy6dB4eRf9vmIzyYOGBOvOV0rxnnJOFJZxTA7VciT-umg58NJsQP3kYCLpppNELeeaXQiqe1AA0qV38fOKRi25uEo737GELfSXhh_6omFF4p1gQOXTgjAWp5kP8dWaLAi1jFzc15Vc5btaNvTkZCwuqphuKcGsXhT3p2orz5JNKvy9UQ3rvIAX_rVpBsicYCYFrUso365LE_COiycOxY9U69NyYBCaXS4CoZ9fJ8OJOuG5nUsS8n1gMMlvdvjZp3QQAJlUHPiOODjDyIQmx4lJKAG7g03Rvk5V4ZRxNdvad0z72FpSFrmnPBzGYGQJqJYhKayGKzTQkzIuynNUDsu7Ww7UnoQk3I5LDLKuPi4CyoJDxIlGC8h_c0XolJMYFZ2SQdncjVQPu3xB-cpnHhnfoFglyaYt_uOEZg3uhEUq7npRGr-5Pw_epnsd5X1lTsiZZSDqw05RAcOOOvW0mlbYrJ044eN4RubPniEg14hG-reGYwS_iF8e4Jc4_qSgMCD0vHQ1tns4_bpxVjMBqYUbwaBOS-uYPjrKuo5WDs9QFdKXVAv302Uy9ulyMhTCiTLY1GRUKPCoaeqvbDHupbM6OgDAYyHXnYIH5J57BtvMhwER0npC0MRmTdOqckkPtIsZ38tfNvjanicfoKNVCuB2M_SaliYW6rJqK6xxLvSwZ3MzAIByJfPEZkQCpT1H2cBPJgnBgA7ilHcy-dFVMNfYn14V0ZoxELaIHxG2nlsb329e9bZcWOjrs2ssrbB4MPFydT31tjcn-8N7PL2CPwTBeIMuAYxxSebUalbVs25bEMxbE9vakFkew5lY6a9VUeHRpW0l5mcs6a5rIvj3tW0vzZ1BFt67gybfl3QJBLRKDuSMUDDhi5QrDrlPI_O8jAcDk4NXH9eYGd6bYB3U7aNB6vGGSB7pkmEI2LoxD7ZvZw3ouFwZ08NKC7GtPS0ByYFCw4hFCsd-YjP3r2hT57CbU_KTfzQS0IFC4teBWAjhoVAmrVtX59ercyvsbTXzsHUy6f58Wf0DsFU1-qJaB9mmjiXaq4cK_bd4Ewqpm1rqu5QWysaHFxrimlvczFQ2AcmDKBnNkG0e0akyI7OUbeaxdzf5uX9EBL6DOwnJi3AAA8uDRMXIkEgJinoCA6uCR8eSWB7enVci5Z-MTQ¢\u0001é\u0002tbMyw1MjgsMzA5MTBdLFsxLDk3MiwzMTQ0Ml0sWzIsMTg3MywyOTM1MThdLFs0LDgyMSwxNjQ1MDhdXSxudWxsLFtudWxsLG51bGwsbnVsbCxbMTQsMTAuMDkyODU3MTQzNzA4NjM4LDAuMzQ3MTc0NDQ3MjAzNzM2OSw4NF0sWzAsbnVsbCwwXSwwLDAsM10sWyJyZWdpc3RyYXRpb24ucGF5c2FmZWNhcmQuY29tIiwid3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tIiwiY2RuLmFwcGR5bmFtaWNzLmNvbSIsInd3dy5nb29nbGUuY29tIiwid3d3LmdzdGF0aWMuY29tIl0sWzMsNzM1XV0ª\u0001I0aAFzLYhjA5LNSKLM4PXmOWrj_tLGzGVDkdc2Yv3GZbXkHNUw7LwmskFwmZkXS7xrif9LnfwcÊ\u0001\u0003W10'
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/validate' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=hK2SNJ7r1yBBv9lmEPu5Pe+eA+GDoqoyRh3fKVGpY2GARYPuqqD8fP8HJWeOqmbmrwbZ2qJ+8YHGLzLGQ7H8xTCZY7VAA93RYdIG0klGowpAAPZYDruezKchVf6Z34uEQD0wxiSWZ6v2qzpkDIPxwluUsArUEY/9THV/woI65ao18S7qOXE=; AWSALBTGCORS=hK2SNJ7r1yBBv9lmEPu5Pe+eA+GDoqoyRh3fKVGpY2GARYPuqqD8fP8HJWeOqmbmrwbZ2qJ+8YHGLzLGQ7H8xTCZY7VAA93RYdIG0klGowpAAPZYDruezKchVf6Z34uEQD0wxiSWZ6v2qzpkDIPxwluUsArUEY/9THV/woI65ao18S7qOXE=; AWSALB=HkFoXs0HwmCxSIC03WjqRLNS0xLT9xMxRYWMkV1kJNHqabzNEAqgS5dg6wxWkkDOHb7ZAf1hwUWoE7cZ5NL4uENyGw0cW+uj8Spk79GPlK/Tflq8OrMt7c5u4fzj; AWSALBCORS=HkFoXs0HwmCxSIC03WjqRLNS0xLT9xMxRYWMkV1kJNHqabzNEAqgS5dg6wxWkkDOHb7ZAf1hwUWoE7cZ5NL4uENyGw0cW+uj8Spk79GPlK/Tflq8OrMt7c5u4fzj' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"mobile_number","stepPayload":{"phoneNumber":"20111561","countryCallingCode":"+216","mobileNumberStepInitiated":true}}'  
+
+  curl --url 'https://www.google.com/recaptcha/api2/reload?k=6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/x-protobuffer' \
+  -b '_GRECAPTCHA=09AKhCRwjYoGOUtSjqJNg-Ny8JYF77VrAQmljXgqBUdVKvvfSyHOJcyOQzCgxfROwt2KaiMD3PIIthay8q1ZPElDU' \
+  -H 'origin: https://www.google.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.google.com/recaptcha/api2/bframe?hl=en&v=kemdRjWFxNjgsGdhRslyEPwU&k=6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4&bft=0dAFcWeA6LfPjtEfFghfaeHQhWUmHpjELNeQE5KIFOH8U9CxhINaaxSvIWnYF7jW0AyBPcRuIZFwN52YWQr5mQr5p1jTFcyzeWDA' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-storage-access: none' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw $'\n\u0018kemdRjWFxNjgsGdhRslyEPwU\u0012¹\r03AFcWeA5YNPK25v1b9Ybt7C3WEutX4fPWXjZeDKDV5YkTjTM0bDsRsKEDylrlTK56zfyUaI3Zoenhf0-6hE5Y_UKj5zY5QVdx6Gg0O3YyvIPxo10HxGK_yGcxA6kEqusGmZrjiNTiJBCYt9hfx5j_iR8gf4mKccq4ULVA1xTtIZUFXM8hFRN6ieiHER1XvX2gafxgNdSuSnOVspYVBXI8UdHRg3eo-QIcrBFk7s-8p6p4W_eI3aj6EqAht4ERXyzhd8tTnHp91I1zgFkEXm2ZDhtvFQmv4n_AJT8nN2OnA2DAkBsu9eTbaJpUOJTdkyZyhBwW1LaG-wFPSrmXlmahQKFH0j12DsHpQVLui4yoFWM0LtgAyQRMJ8mgwfayStSyxpwKUW2nKNkpRiCe-H-Do1jtDL8sp_X6wl4k44hQy0ABc3tFV8R-k3B4xP49UQduuCaLtA1GNhgyjNmOq9dXekjhPfawe3ZrBIHcs8edbn2DjpC-lp_Gtj_6QLSg4A_LrgCmlUY5x4mifx-gcQmchFyfTtJdfSUVWoJUYRosA18bZOTN9o1j78ThJWqvi_aVRY7Su2h-zQtSVtMxuNsEfY0YNN4EVM-E_tsm-r4cqMrLf5WSxhz0FR3BsBy67mXvyKm_ZF4hJIs1F3Gp5OE6upurYCwceA8nutZQclwQOs8r0guHWparUS5punaKQMFyvoYCKfKD-iCruYqKy8cLH2ha71J1u1Hf2bSg5h7WQlT6cMNF7q3oegaeq-5r-4bCF71T7X__PiXfsamPd_xnJaR-cKAFyNuol2eraTnZtxLQs5tebXLVC8F3SvHCerDJv6jkIdsd6YHHULAPq9NMmdTX3xVfh4r4yeERNUYFugmCRkE9c3m-JNSyT7bpJQfgWPfFFWXVe5JJ4zFScnLhzHSH8Qltl3EzjoqDfNyhizp1mySROcKJQHC7U-OXjlXLIKDaA7bNFDCechoetZi8En_TiPrFpEm3QiiQwwpdJ3fwJ4EG61bVBK5abhORgjgJ7r_tt52L6ykRs5kbfkuCmGYa32KyJJ4pj_R7rYAKcrSEHacJguCnOOHD3bSKAGhmKS7mWOC5pnKrR_QNemYrZnt2IjJKl14wWsBpt2M8wmfqSwRlUo5ZruZY70vE-gDYyhTcRECbIjzS3oPIravXJnXbRR71GgyTiwtYyyC69V3vwQclA4IP0cWo3Qh_5_ENdYFAeFt6Ma1aNF3Bi99nN2MohjNzSU8mqmLC88-_JNoIVzMgmQiwMHgcNLTABqf3JwLlFvvWNPSp-jKK4if8M4MzxKGIdnqlGUzXBQrYBIEntiLZs26SfJ870ViY4g53rE7_jmRNp2NWevukgtz5axC4oDBm9yKOEXJHOvipSjtSQSOZNnumSv4jhnQd_hk2Fy3i754cA4_zgT4Rb6e2AKleVgGgGsbd5LJQl62fItVXa7sB0fO2vqcdZ_bdwvqHPRlNCPXLG7yaFNPzDOkgVMUCXK_6LBFS60tgxe9Lkvkc8eZcSEfr-LyHapb6RoP_0Tbk2JGyZfwY_k50cWk6Vqx_mHjklTf25rrZlIYg1U5Mmtm0FupFd4xOLHRzVs8zb-UC7W5yCKb_F6MGl64F8ZhbguUtbvEwHBg8DTHsP2Pk8mX-qo4NMfqpFQXBrTgmd5dRtQzpExt_AwFvDecP2RnQGhbsGLmtUwZyVDgkr_hqvWT15tvcYfs*\n16547987122\u0002fi:Ø\u000505AKlZI5H_Ef3c8TiB1hllLM0qdupAEWh7VOhwxclHt_c4jxTYYu7d-SKWsL8YLm8yhve8cCos9NUU-1Ln_jKBwPsas97oVpWDJyWZDbDdzPBWmxvcPVj9RjyktxkNNNMyNucG91vrnTQ-nfNLG92nxgHbwEkbPQZcasOaMD5pVztwct7GO3nKTqTUj6A_hxh-7jBlcGbUeIXV7_-imVW745OnQrTfEHAIbOmIy44pw-XIUgQVqrM-zTVLHuztG8xWr3gKi0gdYl1FazgPuvEq3ivsGFKQX94B3niXDKOte1QJxp58l7tcd-hQZK6RHMbe9myQezfEbfpXNdgeBhSECq1YdaZP8BJGXb8WMeokW8TVPMz6PfQ8vwxgi_tZsU4AcoSkAItzJz8-UoiYnzjqp7QLNXpMDmOeVte29XHQZyJB1KfuGxZFG-pasL5p6PTg3QkWJKg0q5z8CSZcce5yzp-jSJgISgH72PQSkFtmhTBDFcGM3qBMl4Xf7fwxlHvAVry8SjAknoMQc03Qv6tJBWrYZV6RKFHVflQeUoqrBtCB-zzqZIoMw6IKCJZVv6q6k1h_4z7pgr1_rBF61qnDFZeJM-nZ11Sdjsv2Dy9hmah17c30jas-f5Bu7zfullgNxvTFjg9WYXoVWWChNwoWDKlN7Ms7BGC1BA2OdljOHnFpfl5rbRH56_vqIGL__4KS2cK5p0Et4bulJcCCOW5rnwr(6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4\u0082\u0001é.0kobwTpzzCqMBT6a9VrQCWXAJZ7UMI3DZNYkPI4TlMsspd87lftwqgZgxj900S-RCkOf-l_VDmrFKqPZNZP1bqQAXsA5cs8pjwQ9mfRZ0whkwttRzzSlbvAWDlRt5oBN05SV8vEhsvy5c80Zn_0Wq4B2cBT2Q5VSZAT2Vw1V72Cl2-Fqr42mQ7TzHDlecDm7V9X3KOF2Z-pPxP5atRqTySWD5V6X8E6wKWK_GX70LYnkScL4VLMUjccjfeNYke5IYNs0EkuMLgaobbsxJdeEam9pClc5ZmfImcf9Dccg6nM85kQUptPtqh-FUph9bsw9lpQ511hZhtg5Qwx6JxzF86j185AmG1zavBCR76FSL7iCn41V65Fux1WSj82ye_mmQ9k-2Jny94EGd-k6j9FWvBIGnLUviOmD_UYHeGVq7GXLJHm7PKX77IafFXJ_5eKgjWrUAY8HnhagjNZb0TaH3SaoEWdb8gqA3her8XbkVacAQccsfncNJZ_5GsgVEs-hGvAxYr_FglOaAheZEoO9ImfpUqCZM0vCH0zpzowRgvA1ntxhyxURq8A6l50CvwSJ-2zOG1TaQ42KIDizDC3fa_3mtMYmhHGTA_VreCkqrCWW3E16_GWzrEZe1TLcRaHfqSrEUcrL0d636bqH6ea35W90qSZoBOZr4UKYCTa4IWtoAhqQ7dcgnrt9KXL0ZdcYgcNErfv0jqcdeoPpsets3k-1Dju9JmxtBx-V85DKC7e9QrAhctgNkvg-Qtjxa8Ui0thd1zyeAyiuF1ld9AyG4B2t93jyY50CR8kydHkTK6H--Gm_zGY_vI5G6RajeSKnxULX1C2zIIHzSJ3_RL4TfKYvbMrbcYoAXd5YEgNkUXLIyccYoguQtXr4kXMgrebdTieoor9JXj-k4sOwzfuZhldhBvhVhrBw3nyprrQ56zjFmyu9vsvps2yKdxRp74TuT0T6G3zZ99z22yEOU-SSt5F-RBUSy8G3JGlR83TmU7EaQ8UucHUPcOojf9nyaMXnnOKPmCqDpM3zeUJLFW464GXfTJHnMLYfdWX8FI7oIR3_gPprpQpP0Tp8gRszqgcM7ivQnWstMkN1IhN0xggRJlcciqARor9EimetTieo1ng5av_ZKtCGGywlqyfNmnx90xRhn5yKTsyJ08yiJvUmgBRiJ3xuj3VKwAGyS8lGjHWiW90nGA0rCHGbNAEWh8GKvFpTcC3nBAWrhB3vsMna-Rn3WWH33TYTFJJ3nWGrLJ4bcLIbbN4rmOYjsQ5QVO8HfdrA5O5z4VKYDT7AKWtwCm_lHnrU7WfAutgZWq-hWvb8ghNUridw1jeIvk-o5vOJohh2KuRBowTt17BZm8jKW0UeU9AyF-jKKBSSD-Tp26SG2FV2M2Uya8WOyHG-yIYCS7HfL6n69E0qlJ5Hk-3TvLpDkLHjnLYXYEmjsR2j2WJfMHZzoU67ubpHzQ5QgNbAEd33eOpTwP53sR5r6TJv_VqQoTtTyidY2ffgRhOsBYr8UcsIfdsseftUfgNcvrNJYdg0vmtIzj-s8k-ZHofZzmR891A6XmfpYrgxbrQ5ovTpg5gSbAVS2_GJ17xN00C2F2CeI4TC02mB-FW2kL1-yNE3NF3G2GWyo_YbdF5_1GJb7U37xGLDmLJ_VN5ndOJLfZ77rY7QfVojte7LyZ5T6QKbtYNU3ccYKZsUbd6gxks4BdNcsl_A1eNUVhuEhtu0euxE0tAgqlulBo-tZohFHsflutwxZsTaNtvBe0DCFuRNcxB6iuU-RzCpmyzmSBxODxjSP8zar9j2SBkGZAmKu_3y9_jrPKVWr7UCuKm7nEmCoGm2sB4bhG1zMI6HdUpnTW6flPLQJN7XyVKHUUcgOa60aZsD2OcLlWJcRRMH4euT7er8cg9olVvNKgsUmkd9VrO8PfwdQluthivFpveZioO5ztfxVsPpLlRVzqhJ1xymLrguF6BOKywVQ3gN16zyW605fzSGH3Dhw7DaJ_TadFWzC7j6ZE0mGHVnGC17GD3ivAnbfJ4qbGJTWGlSsFnK_S23LQnq5Jn7lVov4T4buMLsKVYr6b4_3b5wBNcAmR68AP8glQcoBWcY6aOAvlbpDi-0cW80gmtkhg9NIbABMqN1XhgVjv99JtNVGl-B0rvBOvApRxC93qRVazi1JoS9mzgxr5xV3wShu7QeC4SiO1Sqe6WKMzDiW4WWwDT3B6mSNDUvIClmq5oO5C32uJXrmGYe0N1THMo7IGnPrHqfpQ20CRYHXMKT0VKXyJovmQrYcXLUBa54Ga5T9bsjxYco0SNcNkKf8Z98vlr0iSqsHY7cOXsIZlLpAXvU3luk9qe5MnwY6ctMxjdw1hudBkRM5v910qghgsCddow5Y4kJx4EJswy2X91WJ3Etq6Bqr3y6r4Cl20lqT5nGg91LD8D_M4WTVCmXbOHizGWXUL5O5Go_BBXXBB2_mL2j0JHz3LJYLOIPpI6vRR57rLrXaTJ_hXKUeXbX9VMb9ZLEkhtIRUd8jgbo9fPMKlPonaPYhgNE5kdsrp9kwn-1ptPVetvRRu_lMmvdd0g0_xtw9mfVIpfBRq_t9oylH3hyk8UOHzSqT4DNbvBt3zCV00ip81CKG3Syv1Vt5EEnNKiyN6UWZ9UCh-0rN83mXLoWtCFvYLG_uPIPxGI3vFrTgHbgCXov_K70MXoAAMJ8TZZELOdUvWtoQi6I6erUykOc3VqwzacZJZO89nNMVavg0r-Aamd1ZvfFKghpZsA0tyfsjhOA9leg3mPJBxOpwjiVj5w2Wx_pVtDh-zUqksgyj2zaG0yeo5iyKBDZ_0TqQ1kiW6068Dk3L-kCZG1aYMzWW9E2l9kmqBFPW_IKgN2G7ToEBTGsGLZD6OrcNYL_uOrEOW5f8dK4YR8AJN6wPXaTcPZn2SKbwUav5faMpR940WrI8gu3_YL4WcsMTdM0loMYjec8ref8dtPJvywQ4sidywP93r_FdxCw7nPhTrP1PsAlg3AKIph5_3Sau51-SyDiI8h-fB0F9BmCN5CCB4zaT5j-X6kKa50ui8XSaID7VC4TFRnPKAXTDHKO3I53bLIHlKXDbU7L0PcPiLZYYa8XtQpsFS9TWN5PvQJjqS6T6d50jQdgSke8ca7FOpssvfesustAxg-hjsPNHvwVCngZxtwA3sPlVoSYrjOhEm_A_oPlPzPJ4li1yzTOa4D9g9juL0SKo4TWP3yp1CkWI9SS98y3B7lCMIFysKHKi_VXcBlLgEmDA_XXAH4voQ1nrF3DFEZvONZj6J4HaP5PcHqX9NqEHQLblQLPaUqgCPcwYfLjpV8g2SMUbbOEddbk0hMw5ffNKXfRElM1VpPFQhvVbugRniuRrpPFyhelCofl6rAZ4syph0CZasC-I1gpM2S6M50dr50CQxy2V9CqIAC2BCymi4D-KBjuy9m6w13O5HljL402f5D7H-1WdFY_bPXvINHbBEIXjHZy5KYfzNmnhEnH0PKflNXITJZTnb6XpdKocUKMXUaLzc8sIVa8kicQSTeERgM07RKUDWrEGWLQKYeULka9GnQlDktAwdg9FmAJhlxZIwfR5wQF_oQFQsQiJ3Rh61OZHo_5WsPpbtAeHrTNR6Eh7_lWTwj5v7F2Uyz-M7yOc-GWF7FqJG0ysImSuLYjKBFjCMGC0CJHhRmic_Vu1C2GwEWq8PWPpQJe1LakKXrMGabjEJXLYM4nOYIYMKqYlfMsnd4kDf-A0idjsTZoAW7H2iK40UtVNqawkYtNaoARRZscUgtkZqwIog9Yjrxh0wSOC1dttkxlw2jiG3fRQov1QnR2g1A9y-lZs_xWg1TFu1U2Q3GeAyVnD7jG3GHbEA3OvBIKlLjncE3viJ4rQOVDlDGrAFmrFTnTrG5buNG7FSoYBQ3DQQY31QJPMasMTMYYlZ6P2QMMJg8wMYaAEXb8cauYjb81GbvEmfucpfsoifeEnnPFZq91Dju9cu-Qtxfhvk_VuySFQqPR8rQpTuQ1H4AVo2v9k7UWV5CJlvPiKsEmn9Uxj_Fqo_xacBmSyCSB8zil8yVG8_HDF8lPQ2GqQKYfVLEPcOojf9o_tO5KpL5n3RZyzDmG8D1zpGrLFP5sUY6zhLL_HWX8YdsQbMsspd87la9UzgdjvS534S5g2mc1Flskvn-0ubO4UrNwprwohlAY2vPZaxeQvyBMyoPBqjQd6ziGGrw-LzeN1myGL6TeOpQhTrgFOyUB0zE1r_T2N_0OIyDC14yKsDESEESiuFzOm51-yAVmn_GGrM1e9KWy7QmfJIomnJn73UWX9GnGtP2XrVbMBWG_KHXjLGMAUKpUMZ537V9MLhKbnYqg2ZLozc9_8iaD-TqsHnNMGT-EHjfdVo_oRbr8abbpXmQw6gu48yu1inBhZsfo8rSNbt_RKoC-I3zOB7P1jxChp9EWE2imev0Ke71KI6S6hxl2b4kR-8Eed7DTNBGKxKT2SHWWnCkisA1rm9WbnE4rAGE_vKHL0J5XoI4IDT4cCSLIKUafgW5nhRn_ScaLcSaP0b83lcZMpWNDnWuP0T6gybsUAbMw4ibEome5UoNgnq8BTg-NatgBeuQpUlMxEpR1Dlt9QyAVKqSpWziaFwCtJ4CtG6UN2qA-fs0KY-giDzk557TSjCSqM2TuF_2KcAT5-602qGW6c_TyHLG-UMFO_JXnPFlGoK3W2ElWpGFvzS6PdQYjxUYQIVav6OpXDJJEKaYEWXYb8a6oZT7ApUpYpe8UqSL0hkbX2lMgfjN0jkclBortGlvZBq887tAE0hdg7jelmvssvhR4zqeBLuR9XmvEtv-Vr1TOB2O9LnfhLmDV-xhNy5xx_t0B42AxtwBWm6k-PASOcBC7D61DKH0PKGHGM3VzLLFHHJFfV7FDRC0zpEnLSA3i3JXTJP3OzN2cEMK0MGpnxVqcGXsECPqPbLqMCd8sVW7EbUrEjZ9wVbM4qgq_rfaMpk_E_lq0IW7YJVgVEq_ZcswFgnOQphcFTef9pxxVsg94xjN8sqx1G3C2J1zZyuv9blylP1T-d60JZtAditQJq9V6e3TW78WeZDzqj1ym17C6hIVPO-WHM73KbFFrVD4WwF2asPlGxR52zFWzDGnHIH3LJBZe9Q60LWbDHI3XQI3DpMoUZa8bgfMILbs0EXp4GTd85faESVbsga9EXftIPk7Y-ZvcYhQhAqdkjdvJEu9I2jeQ7kuk8k89hhyB-zCM6wCqI1i1EoPJNoO2a2hWf5EOP9SJ01jKA4Bh4tEZsBWOxCB-lD227EimE1zKF0mii6IKXIEDN9U-19Yu8HFjiP1q0K1m2IZjyQHGtP2XrVbMBWG_KHXjLGLEaT8XvT4f0er_9QMLse9IifqAFWr8gY6kceq9HmcM9p-0-m6s9Y-lTsf9WbcgbdskWrA1Dtf1tmyJJwP5S2Blymi5onilvthKWqDFetfGDqS-Z90Wcsw5hvA9c80utxiK031iu7CyRCmmk-Fq-Ej7UBn_FHIq3KzfJ73XfPYvi-VWx_lms-Zq1UYL3O6TCQKECPHj-QbPRW5P7S6jdULDzV5MTeKrnMMLobtg2hNvyTqD7Tps0bPAMY9QJnu5SetdIqAM3ocYjiuxpvA87iB4vyh0z0wl2oB9CzQ-Ing5emPaInUGSqQOG4T5d7SVyvUdk8TqJ6R2zA0OI9GWc7j-97km49Da6GmnJ_XK7CXy0BEWuA3Cg_2rPQHjzM5PqTWbcL4LWJJ7EFK73PbjqSY3pRp7bUZsaQoTuO50fgsApRMsUa5oIbMMwkOlAWOsEVcFCpLtQkwA3jttLqwAfbtlisdJTlupkhxpGu_cynB940up8rQqCm_ZvxgmNxQuI4RCS3wGT6zCB9U2L1U-q0Bp6tkifxV68CmF4_hyUDGmk4VKNDHWtC1SbHlvaOnzAA1qW91OqA1uuDGGzDmO0GG--QWcAXqwDGrMRX7bNU3EIPqbsJIXhPZDlOJnyQsUc¢\u0001õ\u0002tbMyw1MjgsMzA5MTBdLFsxLDk3MiwzMTQ0Ml0sWzIsMzE4OCwzMzY3NTNdLFs0LDgzMywyOTY5NDBdXSxudWxsLFtudWxsLG51bGwsbnVsbCxbMTIsOS4zOTk5OTk5OTYwMjYzNTgsMC4yNjg2MzUzODkyNDE5ODQxLDUyXSxbMSwxLDAuMDAyMzgxNTE5NDA5MTgwMzUzLDFdLDAsMCw2XSxbInJlZ2lzdHJhdGlvbi5wYXlzYWZlY2FyZC5jb20iLCJ3d3cuZ29vZ2xldGFnbWFuYWdlci5jb20iLCJjZG4uYXBwZHluYW1pY3MuY29tIiwid3d3Lmdvb2dsZS5jb20iLCJ3d3cuZ3N0YXRpYy5jb20iXV0ª\u0001I0aAKlZI5F3TifQzKjElgCGCGWcuupeRpxaaMcmZQnEU9mW1BOHbwK3l-tyaqXpwDTsHchvsQIÊ\u0001\u0010W1tbNTAwNiw1XV1d'
+
+  curl --url 'https://www.google.com/recaptcha/api2/userverify?k=6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -b '_GRECAPTCHA=09AKhCRwgF-uUoi5grZvc9HuiHDSUeWy9lDhm-rMn3vsf-Qp4RKvI_OedL8N0cZ6CtQfrfM9uhepdYyCkmLHgpxX4' \
+  -H 'origin: https://www.google.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.google.com/recaptcha/api2/bframe?hl=en&v=kemdRjWFxNjgsGdhRslyEPwU&k=6LcadcMZAAAAAOiDeeYXcj3ML547636Rlbw6Mc_4&bft=0dAFcWeA6LfPjtEfFghfaeHQhWUmHpjELNeQE5KIFOH8U9CxhINaaxSvIWnYF7jW0AyBPcRuIZFwN52YWQr5mQr5p1jTFcyzeWDA' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-storage-access: none' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw 'v=kemdRjWFxNjgsGdhRslyEPwU&c=0cAFcWeA6JBTjvptEbnZHqxxg4lxPEgTfZtX_JxLzbxndBR0tVdvcKEn8XLn_M6SQ2buUXxZGWC9hcG26MVcAmX40TjOneJ6mAgiKGq4wmwx7zlsBC7fHW0iuj-zedFkUmPXXVRkjPy6l6gO53pUPNnz78Dg5gBiPsZZUIJ1b8kMiK1G5R-LV9dZLcHuikACP0KCVXh3dR5k3qyM-5AOwGXrK3dadjBy0DJVdj4JG16iytXZik9_Ah4e7n1p4tJg2-0eHqbwd-HdipaZNDyZBeKOa2PCbj_XG5paOtosFAlapDg9QSOYKx_TChe6Bh2CI2CaWs2lRrSrUQD0RhHLYJouQ1hF_DGFb6i6OGi1sO7m1-5gifnExi3CE81JpS3qCNocTS31F-5dtL3PCqtAWmTsvSa01Xpgqz-X3RWsHWsYUkgGGEUrv9RquxNMf78s_uPnqzQ1WLC8cLQh_oYTPrv1LgR5xbno5dh6Zuv-ViVZj79TWbHLSSH3fgcl6IekNHg4zrJkLEXD3HSPatcUqTSkZ9HihqrfWELnjLSJAokC_Z5p9p7Vm29A1xAyFkEAFnE7ZgdF2UWb1cFohFqLnyDu-ix965DqPA8O4lPRZFxdyoda2g8NOhKGK-X6PKMUjgR5HQ_YHjOa-dnDYf_ZKy93VYoa8wH61-fZ5e_5GqMTjn0EF6qYFO1bNvwqyEXlFL8ExL8Fm7p8a1IlSeDWIKd243Gfe4rnlrRwsV0PRwXwct8FNZVE6RE__zl3WDDtY9kIimNXcFWP0UgeMjQlAShVcL2xque0ShxMor-mrT1KSuRwFnngWR2gZodyiHA_T0yAlyrZadGzSY93iQF2U4d4NdYYp4ojND3cdf2PaM6tL3_uDy6KSyNnUFME-E81YPdtwlTxpNshxwV58icCotTVdpFVYXXfwjFjGuzLvso26vu47fQoDGrCyOIJH3BTtLMbpKUBsm6lVG3lL1y6Gm2mk9dwoRoaf1pqwDQoAAqycXCpYo5KPUxgZWlVmWn00dQkT4oy0HaE7sx2lD_S7at5kJZsVQkWMZi6uiP9U5vmuLEgLeezAmnUkKBgg7T2FoSGNXwMhDAvIAjIVSrwN8XF3IA9uTqCZSc5OtIO5pjTJubwdKz8yBnaeDyXEycbXoeCeB5VlQYYb2ze7CJ2E0uximqTMaxNnP0KmJs2pAoDYK1TQc3Lwh4oaygCApnTUPqC8SuMARonw7P8y8nm3KjDeTst6ElQDx9MWbZ-PQq4v5128CogYwCdBXOGzjjoRllQl7fJG4eeJlS1DvdiJ1kLtX8_3J5Kz4YJNGsV2_b-Uqb3RSOnWlsQ6te35RzrwCYZd61--hqybiEXZLiCVTv6o7hSxL0aqCRpIQEpNPFvdAynFNRIW2rgQNHrm31JaechCZIr8L6zo7mphzRxo3qjai73E3XPz4x5_L-djJw26WnJygVuHYChkiJO7ErXjvpM-SlsFwvhSr7HGZ5B0bQFcssRNSEQ8dPj6_eFtsB4mpK5uoUBoK1421-6ai_lWZiYEqaQFcW6yETF8xmdWiTD1ZjcWkm31UGoxvk5_tDMgElndZInSqudXcE-jj7jQpxDklS_Bp05V4Y48X4vQtvihbFGMEvVPKkcddyKQwJAVNrbc8NvgH0VvCUzYjKOvWoXt4gSud4OlDgKwtRF98W6wBG6BG5lciv873LtIzBYb7TNIgIWcfNgfDSGeALexwJInN7qz6BtYDhNEzYPFnHCfX87HP-kk61NF_CgSdnLi5F455VMe1J1pHffiF2Yy-DqtGMjmHz-_vHEpXXJ7Y-yySkO8HXObYcF5mfqeQ9_3XC_tbqublbgR_UJse2ot9CbYktDeVITUo3tZwIz2XlI6WmkVDVgPtRetNRW4g6GXdO0uwjeoZW2nCf-6GneTk6PaSMQB9S9R-UyrJxuIENGtSf4WoB7MQm4fMUMCYJiW4STS2zGk73dYkC4gustTf8z3M6hxqg9JXi6nVpt-P8mM54uoK80eZoykZ0xqoFvXYDaL-XSKRXXa8p31Kjsgdl3EyrUK9-nmeQU0wDE5kAJMxcMuEDl1pPpQg3JlbEtCbrpaG7ULzV1J_LGHzby2Sv0XZ-ZAb_-qEqPFh6Si_9hYpF32um4mqtwmIzNFRwX0n-9n4u1D9QiDvbArdknyTvoHIiPzowwxLxCvbZ1wQZBIHhdKEYLH_jMGyOcJT7JqqVZKxqSEbVAsX4CxYSF2h2BO7-8Mul2A0kaKaClHfPIeWOaVTzx8Yfjf9yKi3APj2Kj9lxPbjl-wm3gWZW4H-aMymKuC2czr-_0gDONBMR35NbkkXLJcSLExGAihb79gAGwwAS8_DZSsl0YAA26kl7O71VrJFUNGHIuSLAxAVXVEbRkYey10A0_AmMDIOKbGAjoHzpnb3kXRUaLTKLVM-Bpn1So2WgMAIX7y_z47sAIPXhzsvZbtlf5EOueLxvfXO1-qlAvHFgTBrHf3N99BM9zSD5Zt9pS8aGMSNxQ9hUAe2NREs1eBapqqSZZgRwxOddklk5fr1vOweDC7pB_BdMNySQfDw0muWN5yXHNMWC5Spn7xw1fzz7JZDMp9XvT4rYaun5_MfuF8ed6qka5rYxLEDh_9DzrJaH2KsUP2CeLCd-lbggtxkpra0oNAKd5TrC8gCH0Z7wfNd0zm47mkdPM8gMqhBMSKAY6TGj_cFrkKKT4DB17Ze3bzXLHRnaEOoBCG_kmlxRSBY3kFGN-_KQn_4uxS14WI83RcnGcVF54XfZdfuNFLJ4Y29qVDop8gFdV_8nJcwb6KmWMXbuWsxfe_Hxbs0JtqPhfIOy8O0foXRtaCIcq3mvyJTZqHChjDGWK-fEKRCfxquRk1mqhdwlIH6cog8MbGXvFChZbyV4BlaiirnVSzkz7yMeUr_Qcf9WZAFhsmGWJmkwuGUDyRcjCl9pWRNQuWtjpYYHtwvEfsAZqtrMdfHFB1axC7tkBt_recrSI_pYikLiYjFp7kHV2cuXhY05LO9AxSfuQD7FEzrNLsJJQIqKYsjRVUjV2_Swrx6MhW7gJUY5QU4d5tJeXzfF_9Ro4cfj5B0Htshfs8v4G8J0CW6EsFHmwEWOuniy5mDlQW592WH4aNSs5D-4qZwjmKoVIwRtrlDLSL372yvnFvY_BE4o0w0wYyblDJ488VXzrlwqTb2_KZA6-T6NQbUcq_xfRpzlLknGdz8jCvJuNRM_PUXgbVbqh2rW-S_ja5P1ZlDmTQVOOciib4iVocB-NLLTWP_Z8ri0z-Sdz4ybhfilGb02kDQVoF1DuYvEgkL_NLxfe5oBWCcQL0-tdoIFc1PewVx9wSEJfIn2OKIqbmbS6OiQsPH4ZMYQUBqG04MgBahB86WwkJvx2oTbfe0WhRyeLGaIJfe8OUOIjJPBIE8rqL6rLxOa3DCNtbW9FCvBx1vyYpxPTC6NPtWag2DPrDi16wNK4pYiw8RfVoId4KNoEd_5yr0T6qENVzOYgUJQHMCD8jArdVxQCRU6jXVjH5lpJnV6hbuJIRd3sxRx0_nbnxnTvHyUx0wEtW4ilypJgpV_FnjWCQ-49_vgXqgHOMOPJB9bzj3J8IT8cEX44EbYGHmWz_uj4gp0_X90iV1weh2RVnytYCJ3cLHdlR_s5kNcYQdXQP9hAhHnV4ni5m2o3t20i1nu2kliAesY480RwhsQl8ohgMZJTAK0tNEya0PLjOhvgRX7kVJ3B2vNeH4pBIqx2vxFsueYjrw9M4vitzgMBWXFnwtF8PXN_ICysOO6RMXOjSuDGAYide78XTbUOlo8iUdhxnMOahX5dmXsMO7StICZ3vMoCGgw9OmjG1LGFQjKKz6YXrsRVgaCVVmd3HdYRcfWEuj3UMw4ez5diKLpZoBQ3NcDPMInSppNrOVIFf7v4uT_PB4eY5CAM0ULel3HakpcH80eog_p9KTmAIFN0ihbTv8-pjylfK3DZyfY3GC_unRfYZrfiwCh275G9wrgQ&response=eyJyZXNwb25zZSI6IiIsInMiOiI3YTQ3IiwiZSI6ImJYVnMifQ..&t=381&ct=381&ch=767097951&oc=0LqSDYlQ6EO-OekwvCt_q65KrbHEFIOHjophnXxQi06GYcnQoOvHVsoqPcS8U4OWji3FbP_fNrZelhV1F9dnggG1NSi4O3qiMa0UuAQ_1o4aEUjzu-tuXoFolHiEIncVedBkw9eq3rHlOUyviwM1xaU5IKQ7BuWpWQCEICNuadFIyKtrqzr2dWUMn6Ou0flF1HuvrsJt3QyhH5-WktZFfP0AT0NG7iC9K_96ivGqLcUcmxebMooEgQSf93Hucglg31vfds5IxUjgO7YyajHJIJ8aphGdCFyEf06OAcHslACLt3WqEMlM5D-6NrpRqSegJ78WkQ1FDKf_efWI7I_nOzt-hWnMv_vDSqYJVYlg057OobHxqSfzo3cyohUMRJMCttHF3VxMe7dixaHM2FfPkwKFWNfkTweLInn0cKhwC2LdWORT30qfOiog3JjfmypGiiGQwLOzdwJpPLvIMusi6oHZV9NuylXBFYysjEOHDjYRAJSvs54CYRGEGEwfYkJSBIgz92tq8VmgW8_fkxqZzRyDr8NmdnH1nFCH-1qeHXywT8bi7m109KhEV2dWxVnMhJuTNlFhyIEEn_dx7nIJYN9bk1ryScRDzzrKMYWBhSQgPpK9qjzsbBue1oodGWCEBzaGSnTcxJc7qkZlOSw3sCqWqiWJrIAvI276eXWQe6ciMplRiVDoQ745xTDAK3xTryod5UArp-bWrg4o7Iw67rJ53fjwUC9rcd2VDIDPI7opliW5GBdzDpqJHRSkABNfCZ0YKJNLz2a-OLTstE-nIZ0slCOO45cSIRjYTG8LCs6FaCyXT9Nqwjy48LhTqyWhLJgnkueuWbEI_NfUE5KB0UyMY-9aatGhQLxv465-2TDj8FsTly6GAHy0fBdu6WTwX-tWqz4ydOEYMFsqrtU1mD-XhzdBpfSwKANzZvm9KKe0HtcO1m3FQ79KtkGtAcD3m2-XFiXA7O_wBs7iDdh8BAsvZfo15FTXu6YOdS1lLMQfmhWlHIgXgtcyjnnQkMhrT3qqNbDUZ9rSulmZrIvTS4s6EbFhGDNu-dI48Sjwi-Nd2XDQX8se913iJcDUy4t6ghH1AGgLv7bisWCBA8fPCxZp0OQ3r36u2nEMSCwTCxquGRCf9xu-lq2NESCAEwb-eVTMx_MvZmXYyGO8VtJKtjz1LLd-omIJmVh33-Oh8V3wVNB_4sbaJW1Et5fnNoWZxJuoJ0Z1rfz4cHerCj3xZYxcPvpKrj20u-OPtkZiDQywlCbnPqHclLfnU4JdgXUMhDdmXmVl-Jvsc0sith1Q_FOzOra5iZhoD17TKfIMvLvTy4K6Sbi7vzrKpdZQpEjMJ0MChSTwIAg3sgnKHR_0S-OGGSmQSIBL4zq1MLwrtyJ3Sr2s7TfoNuaupWlf93f2jdWI-NvzXs6SQVGRO7Q3Hnax8ZjDY8tGw&pm=51bGwsbnVsbCxbbnVsbCxudWxsLG51bGwsWzE5LDcuNzg0MjEwNTE4Nzg2NzgxLDAuMzg0NzU1NDYyNjUxMzc2LDQ5XSxbMSwwLjUsMC4wMDEzMDA3Mjg0MDc3ODc0MTUsMV0sMCwwLDBdXQ'
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/execute' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=6fkzvxr2zQ24b5neQGK6KY9IqsMQUkdBMz4tTgLWj2Wu4lpM9wY8XOnC6Am2uIR58cUyfwDCbpa1PLJe6rqRdi6+nI0Oy7C4eAJahJiitlpK+mE33BQVYPjLxoDTK6PdvEVKG+ZcnxWZWIbWJ9mRGT6bCG8JhtP1EsQiyE0HLeZF/MPf69Q=; AWSALBTGCORS=6fkzvxr2zQ24b5neQGK6KY9IqsMQUkdBMz4tTgLWj2Wu4lpM9wY8XOnC6Am2uIR58cUyfwDCbpa1PLJe6rqRdi6+nI0Oy7C4eAJahJiitlpK+mE33BQVYPjLxoDTK6PdvEVKG+ZcnxWZWIbWJ9mRGT6bCG8JhtP1EsQiyE0HLeZF/MPf69Q=; AWSALB=lU01fOfh6MlO+2Iwy/RJs/rSgnxOTnzgGpDJI4d/4+50WLZmWTzOwUzigpM2KHmtvOiAL53wExU0G/0tkS65vaUhwHBhjAFmU2FUCCXRvWTr79nelva7a5uPypJw; AWSALBCORS=lU01fOfh6MlO+2Iwy/RJs/rSgnxOTnzgGpDJI4d/4+50WLZmWTzOwUzigpM2KHmtvOiAL53wExU0G/0tkS65vaUhwHBhjAFmU2FUCCXRvWTr79nelva7a5uPypJw' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  -H 'x-captcha: 0cAFcWeA6HGb5O_n_WH9qjE_khR_JEN8u0is777q-qPtpfEOhoUT4IUg4ujI0Mlo08Vl8tfNGsW74SP2oa9r9H2a76wVtZ4yIPetBPLZchegn6cAI7ojKmnLz8DpmCnpUXydTQ1Ag4Pc28fx32FeN5QDSTZ91ikpTJ8RAK8r4IcRKPldLwIw-mKxCy4Fjenkju6YOpg2Ql1euQzZ1gseKJQ8QTsBv8w_PhoueKhJVJ87vfplp1akT6716WxREN_BiN8RA6CD-oLQbYTY-BBBBXZre6jBn0me3Mcjkt-Zq6XUK4QlA6twFYj92MlALMkWsUqun2g_4hrESE8Uj5w7v8n-uT0eyPSaUQCkI7U7itN4UeuGdkbapAqlPcsygSOaYtxyN4p9BO7MEwUprOIxjcdHtwh4iqpjO2rFuGdLgpCHCAmSZwsxPlwbD98JHCk0phQF6l428CMiYjMeNldG_RTp5h28o5VJ5Lg3IN2nK9BjyTe3UzmTW1g21_l5GhTVUq8wYt3XAVjPGiiuGZE2K2npNPUyj5g83bpu3ULZljEFn7DX_sT0w_bQ04gKHJhEQz-23BahasK2mLMerYgoI6NtdY_zFwKjBHWFTwnVToDF2MUwmZM5x-0WUnfNgO9Z-8YX24tmBNuDXfn1Peg-0jphtHULJnYtOUX9IiigIjTRfXsYgosNyFxwUSTUeHhQiNBIc9tDilY68B3JDbUMXdwtaasvtMt5iAQR5x__YuVR51I4SFpwhunQrDatnTa6KJUnE6xWoxgwX9mv1Flj4iVpt0bXekiy7vQAUnLQpSAHQIjBiL90Fn4UUzD4rGLZ8hdCTKpGEDFVzc7zCV8FPuaKH-cQ7A3FAP1I1oKub9vNpVSqMuNykx2tsleUubo8e6OogaMVWksom3PYJC0dZkDswDWzVWlbcwWTLvWkFijYiJKjhJLSQ7xXgbBmPFQ6MfE58RAPJIyiLY9ytStbLpaPnWfY_CXgetrstHg4_Q1Pkg2WRRiy_d3VHgUhjmyxc8ed0VhP31VyDyHna_K-XRO0vd5XHUQNTTAJgXWuG7oe_eGEND5mLFExkaKYOf6g-jXpEqgJMLifEb7iQ9NLKPkUgFuycsnt121fM7V-wwpJmaHiPTrNRbf-BU02QX-QOg9BnglKtOXMLfT-4YAhe3-sH1D1yzbY-JdaDCVywD5kMWa6cmQodI7OfrSU6lvxlQLuiNw12nyIwEqFxirbyFw9s-iIIu-vnYWevpvx8q3jwGYXF_VFEuPif1EPMWj0wbtjVjOz4WHosV50IfSZgzm2h9liMX-dfK9XEI9hf0_cqXA1RLiCRA59SjrRiLpNulTWJGWaQCYCyJDveJsn_3TAzpcBzrAlL32qivBy7Jg0kYkO5tulW8G54YCYdcHzjkbPd4mFie_A3oqUjtntD8pRmjJ9IKBC1aS7XukV1nZ7TOT9v87iOYnOl4dOwTjU_Cf2KPBGre6cV6zlMDEL-jSd1GsoikX-irmAvUHbnX5NwF_o_3RLv4kDsK3olfYrcgJU2bRT29Vnfrnegpq6B7nVI93khlTtAFHklTK63azgQ75NqZQA3zQu4gRbbk-qjAb6XS5Rpev9n5DONPg1nMYh2EBtKHu4M_rEmyhwDwjW59lpuwjiTcvI3y_-hLbF2RkkjAkBS7qBWUEjqvVwasJieuU0fePvEEQhcwrR-R28gqHKDt42JvnkEH-0WDNXL6tICOOd7zHOP1ccMrYRq5heFAOBSnb6Ku567rp32HXobRVaHbs7qN3D9LByJX2DKY5pXZei5xXuZdJgkZG08a74gb3SvY3jDeycukd9ytmC6QWAXT1gJmFdNt_IjQ7mbJxaer_yXx4_wXURnqQ-Q9J2UVIA-T76TqPc8rFDyZ0IZEaEqH2HTwntQgapp5zi80shXIp4OGESjmsEqjWQck7YcQujT9GgqB9GitNqUqXXswVPwdexCbKAJCm1Q2gu4pUBwPOmZMauka524aI2EMlC5x20VQWQBCzkE8OpJn7zdcbFElpZsG6uIQvdEmbZ1ocGZ_7a01CFK1tMKzyAi_j8Bc0Wsi-rRtnQAN8NVYuYBFDDV_XQfDMe9yHKDuPT5rq3rBXj-HIRiY7Thgganpo2ybtSEPQ-bUsTOVoFjGFCLvI5DhydkYsh6Yzr6P1Sri2LfmP0zdQocDnTqypo8D55zo42zxcK-hy2WJ3Uzgcb9xu_ZkhSW3i74Pf-y2ubG3mt3pCM4v_097BKzps9tuNZxwv3x_LV4fIXwwxaf5eTBtf_86CUpTK6R18Fru7mBnWX3wAuSbctZVx5PsnodBz9BOLcoSwpQh3ZhH7HLEQ6bvmbgV5gkunxkeCz2UfZ9v-fDqDIqSvandgb8ViGvrnmY43lK0WkM2RkzvKT1RsFPVAhSIVtVc5vBUPP6Qc-1Hh6mhp6Nl0yYNusZYXCbtiSYI_7bYhXhLzA' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"mobile_number","stepPayload":{"phoneNumber":"20111561","countryCallingCode":"+216","mobileNumberStepInitiated":true}}'
+
+  curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/tmxProfilingParameters' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=0od1zSZXmszFf5D7PMHQGeCIFUSFUkSwv4x3vxayNS9DFo9QSjtU0bJPc7nha1oweLkv7Q59ceIRMhnC9X0UloeInXIjV5mpiX2dTzgXYMo4esiXc0/yk0hJ6TOKhJDjHstNDMtQnzHYlUW7Q5OnKjKt2dSCcbM14WS+/ZmMyZQGa/jpJUw=; AWSALBTGCORS=0od1zSZXmszFf5D7PMHQGeCIFUSFUkSwv4x3vxayNS9DFo9QSjtU0bJPc7nha1oweLkv7Q59ceIRMhnC9X0UloeInXIjV5mpiX2dTzgXYMo4esiXc0/yk0hJ6TOKhJDjHstNDMtQnzHYlUW7Q5OnKjKt2dSCcbM14WS+/ZmMyZQGa/jpJUw=; AWSALB=9c7PyK9MXs9JjpDtS0/lEC3++EKu/16rGOGMyvS631ihozdrN9a7LLN0o3BVzTgpQF/q20Sn/Ac7tyfBpSLo0GkTb7nCMyI0xsklB9ajeMZp0TWVEzqpFFu/jU70; AWSALBCORS=9c7PyK9MXs9JjpDtS0/lEC3++EKu/16rGOGMyvS631ihozdrN9a7LLN0o3BVzTgpQF/q20Sn/Ac7tyfBpSLo0GkTb7nCMyI0xsklB9ajeMZp0TWVEzqpFFu/jU70' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55"}'
+
+     abki ke likye resend walo pr dhyan mt dena ok 
+
+     #resend curl --url 'https://registration.paysafecard.com/customer-registration/api/v1/steps/execute' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.6' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -b 'preferedLocale="country=US|language=en|"; AWSALBTG=FaY+J3kImJr/gReVo/EOTSWpXH4udVPjH9+jqn2GeA215q5Jv7OLEA7TZ4dIdoyv4Q0j9P6Ih6p4P/Mb3Y4MabeONf3FJlF7alnLYnvIXND6Ex+FXMjCT9XNCNtGbT+hF2Y5+YmE7C3l+XEA80QJkoSeG9Py8hVskVNjDQr6hyzW/mstWGk=; AWSALBTGCORS=FaY+J3kImJr/gReVo/EOTSWpXH4udVPjH9+jqn2GeA215q5Jv7OLEA7TZ4dIdoyv4Q0j9P6Ih6p4P/Mb3Y4MabeONf3FJlF7alnLYnvIXND6Ex+FXMjCT9XNCNtGbT+hF2Y5+YmE7C3l+XEA80QJkoSeG9Py8hVskVNjDQr6hyzW/mstWGk=; AWSALB=3+n1iY8ZZ7FytfR0ldAxUyH4K032rWZg2T0ftsCM13+AUPKZw46N/My/TSqksYG74iA9OUbrElrYMOU1Sdkzkg2bDLyVpnkNYm008lQt8VBsSUzhvc/WRixz2Nv3; AWSALBCORS=3+n1iY8ZZ7FytfR0ldAxUyH4K032rWZg2T0ftsCM13+AUPKZw46N/My/TSqksYG74iA9OUbrElrYMOU1Sdkzkg2bDLyVpnkNYm008lQt8VBsSUzhvc/WRixz2Nv3' \
+  -H 'origin: https://registration.paysafecard.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://registration.paysafecard.com/customer-registration/' \
+  -H 'sec-ch-ua: "Chromium";v="154", "Brave";v="154", "Not A(Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \
+  --data-raw '{"registrationReference":"e170f009-f856-4000-b0f0-28828b499a55","stepName":"verify_mobile_number","stepPayload":{"resendSmsCode":true}}'
